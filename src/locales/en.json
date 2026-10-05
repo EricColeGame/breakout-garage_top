@@ -38,27 +38,27 @@
     },
     "start": {
       "eyebrow": "Start Here",
-      "title": "Your My Seafood Stand Journey",
+      "title": "Your Breakout Garage Journey",
       "cards": [
         {
           "number": "1",
           "title": "Beginner Guide",
-          "description": "Master the Spirit World from day one with our comprehensive beginner guide covering controls, combat, and early progression."
+          "description": "Learn the garage loop from your first cheap used car: buy, repair, build, tune, race, and earn before you chase big horsepower."
         },
         {
           "number": "2",
-          "title": "Fastest Leveling",
-          "description": "Dominate early game and max your progression with the most efficient leveling routes and strategies."
+          "title": "Tuning & Upgrades",
+          "description": "Spend your cash in the right order, from tires and suspension to gearing, so every part you bolt on actually lowers your times."
         },
         {
           "number": "3",
-          "title": "Best Farming Spots",
-          "description": "Maximize your Soul Essence and EXP gains with optimal farming locations for every stage."
+          "title": "Money Making Methods",
+          "description": "Stack race payouts, delivery jobs, daily objectives, and used-car flipping into a routine that funds your next build."
         },
         {
           "number": "4",
-          "title": "How to Extract",
-          "description": "Learn the best methods and locations for extracting resources in My Seafood Stand."
+          "title": "Best Cars & Builds",
+          "description": "Compare the 5 launch cars and 3 engine types to pick the right platform for drag, oval, drift, and time trial events."
         }
       ]
     },
@@ -66,265 +66,343 @@
       "eyebrow": "Popular Pages",
       "title": "Trending Now",
       "quickLinks": [
-        "Hollow Progression",
-        "Fastest Leveling",
-        "Spirit Charms",
-        "All Boss Guides"
+        "Tuning Guide",
+        "Car List",
+        "Money Making",
+        "Drag Racing"
       ],
       "cards": [
         {
           "badge": "Beginner",
           "title": "Beginner Guide",
-          "description": "Everything you need from your first login to mastering the basics of combat and progression.",
-          "href": "/beginner-guide"
+          "description": "Everything you need for your first hours in the garage, from controls to your first tuned race car.",
+          "href": "/guide/breakout-garage-beginner-guide"
         },
         {
-          "badge": "Updated",
-          "title": "Active Codes",
-          "description": "All working codes with rewards redeem before they expire.",
-          "href": "/codes"
-        },
-        {
-          "badge": "Updated",
-          "title": "Equipment Database",
-          "description": "94 items across 5 slots complete gear database with stats, rarity, and sources.",
-          "href": "/equipment"
+          "badge": "Core",
+          "title": "Tuning Guide",
+          "description": "Upgrade order, build archetypes, gearing, and test-lap habits that turn a rough car into a winner.",
+          "href": "/guide/breakout-garage-tuning-guide"
         },
         {
           "badge": "Popular",
-          "title": "Which Race Should You Pick?",
-          "description": "Shinigami, Quincy, or Hollow compare all three and find your perfect playstyle.",
-          "href": "/races/best-race"
-        },
-        {
-          "badge": "New",
-          "title": "Enemies & Monsters",
-          "description": "23 enemy types across 5 regions drops, locations, and farming tips.",
-          "href": "/enemies"
+          "title": "Car List",
+          "description": "Every vehicle class and tier explained so you can choose the right ride for each event.",
+          "href": "/vehicles/breakout-garage-car-list"
         },
         {
           "badge": "Popular",
-          "title": "Boss Locations & Drops",
-          "description": "Every boss location, drop table, and respawn timer in one reference.",
-          "href": "/boss-locations-drops-respawn-times"
+          "title": "Drag Racing",
+          "description": "Launch traction, gear ratios, weight transfer, and a repeatable test-and-tune workflow.",
+          "href": "/mechanics/breakout-garage-drag-racing"
         },
         {
-          "badge": "Popular",
-          "title": "Best Builds",
-          "description": "Optimal stat allocation, skill tree picks, and Charm combos for every playstyle.",
-          "href": "/builds/best-builds"
+          "badge": "Money",
+          "title": "Money Making Methods",
+          "description": "The most reliable earning routines for funding repairs, parts, and your next car.",
+          "href": "/guide/breakout-garage-money-making-methods"
         },
         {
-          "badge": "New",
-          "title": "Shikai Tier List",
-          "description": "All 6 Shinigami Shikai types ranked by PvP and PvE performance.",
-          "href": "/tier-list/shikai"
+          "badge": "Vehicles",
+          "title": "All Cars",
+          "description": "A collector's roadmap to unlocking every vehicle in the Early Access garage.",
+          "href": "/vehicles/breakout-garage-all-cars"
         },
         {
-          "badge": "New",
-          "title": "World Events Guide",
-          "description": "Supply Caches, Raids, and endgame world events with rare rewards.",
-          "href": "/world-events"
+          "badge": "Parts",
+          "title": "Engine Upgrades",
+          "description": "Which parts to buy first and how supporting mods make power usable on the strip.",
+          "href": "/mechanics/breakout-garage-engine-upgrades"
+        },
+        {
+          "badge": "Multiplayer",
+          "title": "Multiplayer Guide",
+          "description": "How Peer-to-Peer lobbies and in-game Race Lobby events work with friends.",
+          "href": "/mechanics/breakout-garage-multiplayer"
+        },
+        {
+          "badge": "Release",
+          "title": "Early Access",
+          "description": "What the Early Access build includes and how the game is planned to grow.",
+          "href": "/release/breakout-garage-early-access"
         }
       ]
     },
     "aboutGame": {
-      "title": "What is My Seafood Stand?",
+      "title": "What is Breakout Garage?",
       "paragraphs": [
-        "My Seafood Stand is a stylized fighting RPG on Roblox inspired by the Bleach anime universe. Choose from three playable races Shinigami, Quincy, or Hollow each with unique progression systems, unlockable abilities, and evolution paths. Master over 130 skills as you fight your way to the level 100 cap.",
-        "Whether you're unlocking your first Shikai, evolving from a base Hollow into an Arrancar, or grinding Quincy Lieutenant missions, our wiki covers every system with detailed guides, data tables, and step-by-step walkthroughs."
+        "Breakout Garage is an open-world driving and racing simulator from Breakout Studio, set in a Texas-inspired small town where classic American muscle cars are bought, repaired, rebuilt, and tuned by hand. It entered Steam Early Access on September 22, 2026 with 5 cars, 3 engine types, and simple races covering drag racing, oval events, drift, time trials, and endurance runs.",
+        "The core loop is Buy, Repair, Build, Tune, Race, Earn, Upgrade. Deep engine tuning covers airflow, air-fuel ratio, ignition timing, compression, boost, gear ratios, suspension, tires, weight, and aero, while Peer-to-Peer multiplayer lets you race friends in the in-game Race Lobby. Our wiki documents every system with guides, data tables, and step-by-step walkthroughs."
       ],
       "stats": [
         {
           "label": "Developer",
-          "value": "Midnight Continent"
+          "value": "Breakout Studio"
         },
         {
           "label": "Platform",
-          "value": "Roblox"
+          "value": "PC / Steam"
         },
         {
           "label": "Genre",
-          "value": "Fighting RPG"
+          "value": "Racing Sim"
         },
         {
-          "label": "Visits",
-          "value": "12.6M+"
+          "label": "Status",
+          "value": "Early Access"
         },
         {
-          "label": "Favorites",
-          "value": "243K+"
+          "label": "Cars Available",
+          "value": "5"
         },
         {
-          "label": "Total Skills",
-          "value": "130+"
+          "label": "Engine Types",
+          "value": "3"
         },
         {
-          "label": "Level Cap",
-          "value": "100"
+          "label": "Achievements",
+          "value": "11"
         }
       ],
-      "cta": "Explore All Guides"
+      "cta": "Read the Beginner Guide"
     },
     "explore": {
-      "title": "Explore My Seafood Stand Wiki",
-      "description": "Master your seafood restaurant on Roblox with essential progression guides, active codes, complete fish & recipe catalogs, and optimal upgrade strategies.",
+      "title": "Explore Breakout Garage Wiki",
+      "description": "Master Breakout Garage with beginner guides, engine tuning walkthroughs, car lists, drag racing tips, money methods, multiplayer help, and Early Access updates.",
       "modules": [
         {
           "order": 1,
-          "name": "My Seafood Stand Working Codes",
-          "description": "Redeem the latest working codes to claim free coins, gems, exclusive cosmetics, and boost items before they expire.",
-          "href": "/codes/my-seafood-stand-codes",
-          "displayType": "code-box",
+          "name": "Breakout Garage Beginner Guide",
+          "description": "A step-by-step start for new players covering the garage loop, controls, your first used car, and the early races worth running.",
+          "href": "/guide/breakout-garage-beginner-guide",
+          "displayType": "step-by-step",
           "highlights": [
             {
-              "label": "Code",
-              "detail": "FULLRELEASE — Free Cash & Rewards"
+              "label": "1",
+              "detail": "Walk the garage and read every note before you spend any cash."
             },
             {
-              "label": "Code",
-              "detail": "75KLIKES — Exclusive Ability Reroll"
+              "label": "2",
+              "detail": "Buy a cheap used car, repair the worn parts, and learn the Buy to Upgrade loop."
             },
             {
-              "label": "Tip",
-              "detail": "Codes are case-sensitive; enter them in the Settings menu"
+              "label": "3",
+              "detail": "Run the easiest race events until you can afford tires and a baseline tune."
+            },
+            {
+              "label": "4",
+              "detail": "Work backward from your goal build so every part purchase has a purpose."
             }
           ]
         },
         {
           "order": 2,
-          "name": "Beginner Guide: How to Start & Serve Customers",
-          "description": "Step-by-step beginner guide covering customer ordering, food prep, station management, and cashier checkout mechanics.",
-          "href": "/guide/my-seafood-stand-beginner-guide",
-          "displayType": "feature-cards",
+          "name": "Breakout Garage Car Tuning",
+          "description": "Engine, airflow, gearing, suspension, tires, and weight all shape how a car puts its power down. Learn the order that pays off fastest.",
+          "href": "/mechanics/breakout-garage-tuning",
+          "displayType": "code-cards",
           "highlights": [
             {
-              "label": "Step 1",
-              "detail": "Take customer order at the stall front"
+              "label": "Tires",
+              "detail": "Tire compound and pressure are the cheapest lap-time gains you can make."
             },
             {
-              "label": "Step 2",
-              "detail": "Cook seafood on the grill or boil station"
+              "label": "Suspension",
+              "detail": "Springs, dampers, camber, and toe control weight transfer and corner grip."
             },
             {
-              "label": "Step 3",
-              "detail": "Serve warm food promptly for maximum customer tips"
+              "label": "Gearing",
+              "detail": "Gear ratios and final drive keep the engine inside its power band."
+            },
+            {
+              "label": "ECU Tune",
+              "detail": "Fuel and ignition timing shape the power curve, so tune power last."
             }
           ]
         },
         {
           "order": 3,
-          "name": "Seafood & Fish Tier List",
-          "description": "Complete breakdown of all catchable fish and seafood ranked by market value, customer demand, and profit margins.",
-          "href": "/seafood/my-seafood-stand-tier-list",
+          "name": "Breakout Garage Cars and Parts",
+          "description": "The launch garage ships with 5 cars and 3 engine types, and this module tracks each platform, its strengths, and the parts that wake it up.",
+          "href": "/vehicles/breakout-garage-car-list",
           "displayType": "tier-grid",
           "highlights": [
             {
-              "label": "S Tier",
-              "detail": "King Crab · Lobster Boil — Highest profit per customer"
+              "label": "S",
+              "detail": "Drag Truck builds for bracket and index classes where consistency wins rounds."
             },
             {
-              "label": "A Tier",
-              "detail": "Salmon · Jumbo Shrimp · Tuna Steak — Reliable fast earners"
+              "label": "A",
+              "detail": "K5 Blazer, a classic Chevy 4x4 platform with deep aftermarket support."
             },
             {
-              "label": "B Tier",
-              "detail": "Clams · Oysters · Squid — Great mid-game margin"
+              "label": "B",
+              "detail": "Square Body trucks, simple to wrench on and easy to upgrade."
             },
             {
-              "label": "C Tier",
-              "detail": "Common Sardines · Small Crab — Starter seafood"
+              "label": "C",
+              "detail": "Starter used cars that teach the repair and tuning loop cheaply."
             }
           ]
         },
         {
           "order": 4,
-          "name": "Best Upgrades Progression",
-          "description": "Optimal order to spend your cash: expand kitchen stations, hire waitstaff, speed up grills, and upgrade seating.",
-          "href": "/upgrades/my-seafood-stand-best-upgrades",
-          "displayType": "feature-cards",
+          "name": "Breakout Garage Racing Guide",
+          "description": "Street and strip drag racing, oval events, drift, time trials, and endurance runs each reward a different setup and driving style.",
+          "href": "/mechanics/breakout-garage-drag-racing",
+          "displayType": "card-list",
           "highlights": [
             {
-              "label": "Priority 1",
-              "detail": "Cooking Speed & Extra Burners — Clears customer backlog"
+              "label": "Drag",
+              "detail": "Street and strip drag racing built around launch grip and gear ratios."
             },
             {
-              "label": "Priority 2",
-              "detail": "Customer Seating Capacity — Increases simultaneous diners"
+              "label": "Oval",
+              "detail": "Oval events reward smooth lines and consistent throttle control."
             },
             {
-              "label": "Priority 3",
-              "detail": "Auto-Chef / Waiter Staff — Passive hands-free revenue"
+              "label": "Drift",
+              "detail": "Drift scoring favors steering angle, differential setup, and rear balance."
+            },
+            {
+              "label": "Timetrial",
+              "detail": "Time trial records are won in the garage with repeatable test laps."
+            },
+            {
+              "label": "Endurance",
+              "detail": "Endurance races test cooling, tire wear, and fuel management."
             }
           ]
         },
         {
           "order": 5,
-          "name": "How to Get Cash Fast",
-          "description": "Top money-making strategies, VIP evaluation, tip maximization, and high-efficiency serving tips.",
-          "href": "/guide/my-seafood-stand-how-to-get-cash-fast",
-          "displayType": "feature-cards",
+          "name": "Breakout Garage Money Guide",
+          "description": "Race payouts, delivery jobs, daily objectives, and flipping used cars are the main ways to fund repairs, parts, and your next vehicle.",
+          "href": "/guide/breakout-garage-money-making-methods",
+          "displayType": "card-list",
           "highlights": [
             {
-              "label": "Combo",
-              "detail": "Chain orders quickly to build the Customer Happiness multiplier"
+              "label": "Races",
+              "detail": "Repeat the events you can finish cleanly for steady payouts."
             },
             {
-              "label": "High Margin",
-              "detail": "Focus high-tier seafood boils during peak customer rush hours"
+              "label": "Delivery",
+              "detail": "Delivery jobs pay reliably while you learn the open-world map."
             },
             {
-              "label": "Reinvest",
-              "detail": "Keep 20% cash reserve for fresh ingredient replenishment"
+              "label": "Flipping",
+              "detail": "Buy cheap used cars, repair them, and resell them for profit."
+            },
+            {
+              "label": "Events",
+              "detail": "Daily and limited-time events offer the biggest short-term payouts."
             }
           ]
         },
         {
           "order": 6,
-          "name": "Plot Expansion & Stand Customization",
-          "description": "Unlock bigger land plots, arrange optimal cooking layouts, and add high-value decorative upgrades.",
-          "href": "/upgrades/my-seafood-stand-how-to-upgrade-plot",
-          "displayType": "feature-cards",
+          "name": "Breakout Garage Used Cars",
+          "description": "The used-car market is where cheap projects live. Learn how to inspect, repair, and resell them for a profit.",
+          "href": "/vehicles/breakout-garage-vehicle-list",
+          "displayType": "card-list",
           "highlights": [
             {
-              "label": "Plot 1",
-              "detail": "Starter Beach Stand (3 Tables, 1 Grill)"
+              "label": "Inspect",
+              "detail": "Check compression, rust, and worn parts before you hand over cash."
             },
             {
-              "label": "Plot 2",
-              "detail": "Boardwalk Restaurant (6 Tables, 2 Grills, Boil Station)"
+              "label": "Repair",
+              "detail": "Fix brakes, tires, and cooling first so the car can finish a race."
             },
             {
-              "label": "Plot 3",
-              "detail": "Luxury Pier Seafood Pavilion (Full Automation & VIP Seating)"
+              "label": "Resell",
+              "detail": "Restore and flip cars once your own garage is fully sorted."
+            },
+            {
+              "label": "Bargain",
+              "detail": "Low-mileage projects with rare drivetrains are the best long-term buys."
+            }
+          ]
+        },
+        {
+          "order": 7,
+          "name": "Breakout Garage Multiplayer",
+          "description": "Breakout Garage supports Peer-to-Peer multiplayer. Host a lobby, invite friends, and race together in the in-game Race Lobby.",
+          "href": "/mechanics/breakout-garage-multiplayer",
+          "displayType": "step-by-step",
+          "highlights": [
+            {
+              "label": "1",
+              "detail": "Host a Peer-to-Peer lobby and invite friends from your Steam list."
+            },
+            {
+              "label": "2",
+              "detail": "Agree on a class or build limit before anyone stages."
+            },
+            {
+              "label": "3",
+              "detail": "Join the in-game Race Lobby and pick the event type."
+            },
+            {
+              "label": "4",
+              "detail": "Keep every build within the rules so results stay consistent."
+            }
+          ]
+        },
+        {
+          "order": 8,
+          "name": "Breakout Garage Updates",
+          "description": "Track official patches, new vehicles, engine types, and roadmap plans as the Early Access build grows.",
+          "href": "/release/breakout-garage-early-access",
+          "displayType": "card-list",
+          "highlights": [
+            {
+              "label": "Patches",
+              "detail": "Balance and bug-fix patches land regularly during Early Access."
+            },
+            {
+              "label": "New Cars",
+              "detail": "The 5-car launch roster is planned to grow with new vehicles."
+            },
+            {
+              "label": "Engines",
+              "detail": "More engine types and parts are on the Early Access roadmap."
+            },
+            {
+              "label": "Roadmap",
+              "detail": "Career mode, map activities, and customization are planned additions."
             }
           ]
         }
       ]
     },
     "faq": {
-      "title": "Frequently Asked Questions",
-      "description": "Quick answers to the most common questions about My Seafood Stand.",
+      "title": "Breakout Garage FAQ",
+      "description": "Quick answers to the most common questions about Breakout Garage.",
       "items": [
         {
-          "question": "What is My Seafood Stand?",
-          "answer": "My Seafood Stand is a free-to-play fighting RPG on Roblox based on the Bleach anime. You choose one of game mechanics Shinigami (Soul Reaper), Quincy, or Hollow each with unique progression, combat abilities, and evolution systems. The game features 130+ skills, a level 100 cap, boss fights, and deep build customization."
+          "question": "What is Breakout Garage?",
+          "answer": "Breakout Garage is an open-world racing and car-building simulator from Breakout Studio, set in a Texas-inspired town with classic American muscle cars. It launched on Steam Early Access on September 22, 2026 with 5 cars, 3 engine types, and drag, oval, drift, time trial, and endurance events."
         },
         {
-          "question": "Which race should beginners pick?",
-          "answer": "Shinigami is the most straightforward starter race, while Hollow and Quincy offer more specialized progression routes. Compare their abilities before committing."
+          "question": "Is Breakout Garage free to play?",
+          "answer": "No. Breakout Garage is a paid PC game sold on Steam and is currently in Early Access. There are no confirmed codes or free-currency systems for Breakout Garage."
         },
         {
-          "question": "What is the current level cap?",
-          "answer": "The current level cap is 100, with more than 130 skills available across trees and race progression systems."
+          "question": "What should I upgrade first in Breakout Garage?",
+          "answer": "Start with tires, brakes, and fluids, then suspension and alignment, then gearing. Add engine power last, because unusable power simply spins the tires in Breakout Garage."
         },
         {
-          "question": "Where do I find active codes?",
-          "answer": "Use the Codes page for working codes, rewards, expiration notes, and redeem instructions."
+          "question": "How many cars are in Breakout Garage?",
+          "answer": "The Early Access launch build includes 5 cars and 3 engine types. The developers plan to expand the Breakout Garage roster, parts, and career content over time."
         },
         {
-          "question": "Are boss guides updated?",
-          "answer": "Boss pages are organized with spawn notes, attack patterns, strategies, drop tables, and related next steps for progression."
+          "question": "Does Breakout Garage have multiplayer?",
+          "answer": "Yes. Breakout Garage supports Peer-to-Peer multiplayer, so you can host a lobby and race friends in the in-game Race Lobby."
+        },
+        {
+          "question": "How do I make money in Breakout Garage?",
+          "answer": "Race events, delivery jobs, daily objectives, and flipping used cars are the main income sources in Breakout Garage. End every session by selling surplus parts and reinvesting in your build."
         }
       ]
     },
@@ -341,7 +419,7 @@
     "activeCodes": "Active Codes",
     "updated": "Updated",
     "viewAllCodes": "View all codes",
-    "playOnRoblox": "Play on Roblox",
+    "playOnRoblox": "Play on Steam",
     "inThisSection": "In this section",
     "tableOfContents": "Table of Contents",
     "nextSteps": "Next Steps",
