@@ -19,18 +19,18 @@ export interface SiteConfig {
 }
 
 export const siteConfig: SiteConfig = {
-  name: "My Seafood Stand Wiki",
-  shortName: "My Seafood Stand",
-  logoText: "SS",
-  tagline: "Complete Guides, Codes, Recipes & Tier Lists",
-  description: "Your ultimate guide to My Seafood Stand on Roblox! Explore active working codes, seafood recipes, best upgrades, profit strategies, and progression guides.",
-  url: process.env.NEXT_PUBLIC_SITE_URL || "https://myseafoodstand.top",
-  supportEmail: `support@${new URL(process.env.NEXT_PUBLIC_SITE_URL || "https://myseafoodstand.top").hostname.replace(/^www\./, "")}`,
-  gameUrl: "https://www.roblox.com/games/my-seafood-stand",
-  heroVideoId: "M8DvcwoFRrk", // Roblox My Seafood Stand codes & gameplay video
+  name: "Breakout Garage Wiki",
+  shortName: "Breakout Garage",
+  logoText: "BG",
+  tagline: "Car Builds, Engine Tuning & Drag Racing Guides",
+  description: "Breakout Garage Wiki covers car builds, engine tuning, drag racing, parts, controls, money tips, multiplayer, updates, and beginner guides for the PC Early Access racing sim.",
+  url: process.env.NEXT_PUBLIC_SITE_URL || "https://breakout-garage.top",
+  supportEmail: `support@${new URL(process.env.NEXT_PUBLIC_SITE_URL || "https://breakout-garage.top").hostname.replace(/^www\./, "")}`,
+  gameUrl: "https://store.steampowered.com/app/3445190/",
+  heroVideoId: "Gc0TyM7WARc", // Breakout Garage official Alpha gameplay showcase
   social: {
-    discord: "https://discord.gg/roblox",
-    youtube: "https://www.youtube.com/@roblox",
+    discord: "https://discord.com/invite/KEzYRwyG4X",
+    youtube: "https://www.youtube.com/@Breakout-Garage",
   },
   locales: ["en", "es", "pt", "de", "fr"],
   defaultLocale: "en",
