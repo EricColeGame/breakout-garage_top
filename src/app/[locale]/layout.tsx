@@ -12,7 +12,7 @@ import { routing } from "@/i18n/routing";
 
 const inter = Inter({ subsets: ["latin"], variable: "--font-sans" });
 
-const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://myseafoodstand.top";
+const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://breakout-garage.top";
 
 export function generateStaticParams() {
   return routing.locales.map((locale) => ({ locale }));
@@ -24,8 +24,8 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
   const adsenseId = process.env.NEXT_PUBLIC_GOOGLE_ADSENSE_ID;
   return {
     metadataBase: new URL(siteUrl),
-    title: { default: "VV: ULTIMATUM Wiki", template: "%s" },
-    description: "Complete VV: ULTIMATUM fan wiki with codes, bosses, builds, races, guides and progression walkthroughs.",
+    title: { default: "Breakout Garage Wiki - Tuning, Cars & Drag Racing", template: "%s" },
+    description: "Breakout Garage Wiki covers car builds, engine tuning, drag racing, parts, controls, money tips, multiplayer, updates, and beginner guides for PC Early Access.",
     openGraph: { type: "website", locale, url: siteUrl, siteName: siteConfig.name, images: [{ url: image }] },
     twitter: { card: "summary_large_image", images: [image] },
     ...(adsenseId ? { other: { "google-adsense-account": adsenseId } } : {}),

@@ -25,7 +25,7 @@ export const siteConfig: SiteConfig = {
   tagline: "Car Builds, Engine Tuning & Drag Racing Guides",
   description: "Breakout Garage Wiki covers car builds, engine tuning, drag racing, parts, controls, money tips, multiplayer, updates, and beginner guides for the PC Early Access racing sim.",
   url: process.env.NEXT_PUBLIC_SITE_URL || "https://breakout-garage.top",
-  supportEmail: `support@${new URL(process.env.NEXT_PUBLIC_SITE_URL || "https://breakout-garage.top").hostname.replace(/^www\./, "")}`,
+  supportEmail: "support@breakout-garage.top",
   gameUrl: "https://store.steampowered.com/app/3445190/",
   heroVideoId: "Gc0TyM7WARc", // Breakout Garage official Alpha gameplay showcase
   social: {
