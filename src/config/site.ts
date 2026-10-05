@@ -32,6 +32,6 @@ export const siteConfig: SiteConfig = {
     discord: "https://discord.com/invite/KEzYRwyG4X",
     youtube: "https://www.youtube.com/@Breakout-Garage",
   },
-  locales: ["en", "es", "pt", "de", "fr"],
+  locales: ["en", "ja", "ko", "es"],
   defaultLocale: "en",
 };
