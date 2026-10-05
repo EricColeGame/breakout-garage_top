@@ -1,1 +1,485 @@
-{}
+{
+  "site": {
+    "name": "Breakout Garage Wiki",
+    "shortName": "Breakout Garage",
+    "tagline": "車づくり・エンジンチューニング・ドラッグレースのガイド",
+    "description": "Breakout Garage Wiki は、PC早期アクセス版レーシングシムの車づくり、エンジンチューニング、ドラッグレース、パーツ、操作、稼ぎ方、マルチプレイ、アップデート、初心者ガイドを扱います。",
+    "legalNotice": "非公式ファンウィキ。プレイヤーによる、プレイヤーのためのサイトです。"
+  },
+  "nav": {
+    "home": "ホーム",
+    "menu": "メニュー",
+    "toggleTheme": "テーマ切替",
+    "guide": "ガイド",
+    "mechanics": "メカニクス",
+    "vehicles": "車両",
+    "progression": "進行",
+    "platforms": "対応機種",
+    "release": "リリース",
+    "community": "コミュニティ"
+  },
+  "home": {
+    "meta": {
+      "title": "Breakout Garage Wiki - チューニング・車・ドラッグレース",
+      "description": "Breakout Garage Wiki は、PC早期アクセス版の車づくり、エンジンチューニング、ドラッグレース、パーツ、操作、稼ぎ方、マルチプレイ、アップデート、初心者ガイドを扱います。"
+    },
+    "hero": {
+      "eyebrow": "ファン制作コミュニティウィキ",
+      "title": "Breakout Garage Wiki",
+      "description": "テキサス風のオープンワールドでクラシックなアメリカンカーを組み立て、修理し、チューニングし、カスタマイズしてレースしよう。奥深いエンジンチューニング、ドラッグレース、オーバルイベント、マルチプレイを楽しめます。",
+      "stats": [
+        "5台の車が登場",
+        "3種類のエンジン",
+        "Steamユーザーレビュー108件",
+        "Steam実績11個"
+      ],
+      "primaryCta": "Steamでプレイ",
+      "secondaryCta": "初心者ガイド",
+      "tertiaryCta": "Steamコミュニティ",
+      "videoLabel": "公式メディア"
+    },
+    "updates": {
+      "title": "最新アップデート",
+      "browse": "すべてのガイドを見る",
+      "viewAll": "すべて表示"
+    },
+    "start": {
+      "eyebrow": "はじめに",
+      "title": "Breakout Garage の歩み方",
+      "cards": [
+        {
+          "number": "1",
+          "title": "初心者ガイド",
+          "description": "最初の安い中古車からガレージの流れを学ぼう。買う、直す、組む、チューニングする、走る、稼ぐを、大馬力を追う前の段階で身につけます。"
+        },
+        {
+          "number": "2",
+          "title": "チューニングとアップグレード",
+          "description": "タイヤ、サスペンション、ギア比の順にお金を使い、取り付けたパーツが確実にタイムを縮めるようにしよう。"
+        },
+        {
+          "number": "3",
+          "title": "稼ぎ方",
+          "description": "レース賞金、配達ジョブ、デイリー目標、中古車の転売を組み合わせ、次の車づくりの資金を稼ぐルーティンを作ろう。"
+        },
+        {
+          "number": "4",
+          "title": "おすすめ車両とビルド",
+          "description": "登場する5台の車と3種類のエンジンを比較し、ドラッグ、オーバル、ドリフト、タイムトライアルに合う車を選ぼう。"
+        }
+      ]
+    },
+    "popular": {
+      "eyebrow": "人気ページ",
+      "title": "いま話題の記事",
+      "quickLinks": [
+        "チューニングガイド",
+        "車両一覧",
+        "稼ぎ方",
+        "ドラッグレース"
+      ],
+      "cards": [
+        {
+          "badge": "初心者",
+          "title": "初心者ガイド",
+          "description": "操作から最初のチューニング済みレースカーまで、ガレージでの最初の数時間に必要なすべて。",
+          "href": "/guide/breakout-garage-beginner-guide"
+        },
+        {
+          "badge": "基本",
+          "title": "チューニングガイド",
+          "description": "アップグレードの順番、ビルドの型、ギア比、テスト走行の習慣で、粗削りな車を勝てる一台に。",
+          "href": "/guide/breakout-garage-tuning-guide"
+        },
+        {
+          "badge": "人気",
+          "title": "車両一覧",
+          "description": "各車両クラスとティアを解説し、イベントごとに最適な一台を選べるようにします。",
+          "href": "/vehicles/breakout-garage-car-list"
+        },
+        {
+          "badge": "人気",
+          "title": "ドラッグレース",
+          "description": "発進トラクション、ギア比、荷重移動、そして再現性のあるテスト＆チューニングの流れ。",
+          "href": "/mechanics/breakout-garage-drag-racing"
+        },
+        {
+          "badge": "お金",
+          "title": "稼ぎ方",
+          "description": "修理、パーツ、次の車の資金を稼ぐ、もっとも確実な稼ぎルーティン。",
+          "href": "/guide/breakout-garage-money-making-methods"
+        },
+        {
+          "badge": "車両",
+          "title": "全車両",
+          "description": "早期アクセスのガレージで全車両を解放するためのコレクター向けロードマップ。",
+          "href": "/vehicles/breakout-garage-all-cars"
+        },
+        {
+          "badge": "パーツ",
+          "title": "エンジン強化",
+          "description": "どのパーツから買うべきか、補助パーツでパワーを路面に伝える方法を解説。",
+          "href": "/mechanics/breakout-garage-engine-upgrades"
+        },
+        {
+          "badge": "マルチプレイ",
+          "title": "マルチプレイガイド",
+          "description": "P2Pロビーとゲーム内レースロビーで友達と遊ぶ方法。",
+          "href": "/mechanics/breakout-garage-multiplayer"
+        },
+        {
+          "badge": "リリース",
+          "title": "早期アクセス",
+          "description": "早期アクセス版の内容と、今後の展開予定。",
+          "href": "/release/breakout-garage-early-access"
+        }
+      ]
+    },
+    "aboutGame": {
+      "title": "Breakout Garage とは？",
+      "paragraphs": [
+        "Breakout Garage は、Breakout Studio によるオープンワールドのドライビング＆レーシングシミュレーターです。テキサス風の小さな町を舞台に、クラシックなアメリカンマッスルカーを買い、修理し、組み直し、手作業でチューニングします。2026年9月22日に Steam 早期アクセスを開始し、5台の車、3種類のエンジン、ドラッグ、オーバル、ドリフト、タイムトライアル、耐久レースを収録しています。",
+        "基本ループは「買う・直す・組む・チューニングする・走る・稼ぐ・強化する」。エアフロー、空燃比、点火時期、圧縮、ブースト、ギア比、サスペンション、タイヤ、重量、エアロまで踏み込むエンジンチューニングと、ゲーム内レースロビーで友達と走れるP2Pマルチプレイが特徴です。当ウィキでは全システムをガイド、データ表、手順つき解説でまとめています。"
+      ],
+      "stats": [
+        {
+          "label": "開発元",
+          "value": "Breakout Studio"
+        },
+        {
+          "label": "プラットフォーム",
+          "value": "PC / Steam"
+        },
+        {
+          "label": "ジャンル",
+          "value": "レーシングシム"
+        },
+        {
+          "label": "ステータス",
+          "value": "早期アクセス"
+        },
+        {
+          "label": "収録車両数",
+          "value": "5"
+        },
+        {
+          "label": "エンジン種類",
+          "value": "3"
+        },
+        {
+          "label": "実績",
+          "value": "11"
+        }
+      ],
+      "cta": "初心者ガイドを読む"
+    },
+    "explore": {
+      "title": "Breakout Garage Wiki を探索",
+      "description": "初心者ガイド、エンジンチューニング解説、車両一覧、ドラッグレースのコツ、稼ぎ方、マルチプレイのヘルプ、早期アクセスの情報で Breakout Garage を極めよう。",
+      "modules": [
+        {
+          "order": 1,
+          "name": "Breakout Garage 初心者ガイド",
+          "description": "ガレージの流れ、操作、最初の中古車、序盤に走るべきレースをまとめた、新規プレイヤー向けの手順ガイド。",
+          "href": "/guide/breakout-garage-beginner-guide",
+          "displayType": "step-by-step",
+          "highlights": [
+            {
+              "label": "1",
+              "detail": "お金を使う前に、ガレージを見て回り、すべてのメモを読もう。"
+            },
+            {
+              "label": "2",
+              "detail": "安い中古車を買い、傷んだパーツを直し、「買う→強化する」の流れを覚えよう。"
+            },
+            {
+              "label": "3",
+              "detail": "タイヤと基本チューニングを買えるようになるまで、簡単なレースをこなそう。"
+            },
+            {
+              "label": "4",
+              "detail": "目標のビルドから逆算して、すべてのパーツ購入に目的を持たせよう。"
+            }
+          ]
+        },
+        {
+          "order": 2,
+          "name": "Breakout Garage 車のチューニング",
+          "description": "エンジン、エアフロー、ギア比、サスペンション、タイヤ、重量がパワーの伝わり方を決めます。もっとも早く効果が出る順番を学びましょう。",
+          "href": "/mechanics/breakout-garage-tuning",
+          "displayType": "code-cards",
+          "highlights": [
+            {
+              "label": "タイヤ",
+              "detail": "タイヤのコンパウンドと空気圧は、もっとも安くラップタイムを縮められる要素です。"
+            },
+            {
+              "label": "サスペンション",
+              "detail": "スプリング、ダンパー、キャンバー、トーが荷重移動とコーナリンググリップを左右します。"
+            },
+            {
+              "label": "ギア比",
+              "detail": "ギア比とファイナルギアで、エンジンをパワーバンド内に保ちます。"
+            },
+            {
+              "label": "ECUチューン",
+              "detail": "燃料と点火時期がパワーカーブを形作るので、パワー系は最後に調整しましょう。"
+            }
+          ]
+        },
+        {
+          "order": 3,
+          "name": "Breakout Garage の車両とパーツ",
+          "description": "登場するガレージには5台の車と3種類のエンジンがあり、このモジュールでは各車の特徴と目を覚まさせるパーツを追います。",
+          "href": "/vehicles/breakout-garage-car-list",
+          "displayType": "tier-grid",
+          "highlights": [
+            {
+              "label": "S",
+              "detail": "ドラッグトラックは、安定性が勝敗を分けるブラケット／インデックスクラス向けのビルド。"
+            },
+            {
+              "label": "A",
+              "detail": "K5 ブレイザーは、アフターパーツが豊富なクラシックなシボレー4x4。"
+            },
+            {
+              "label": "B",
+              "detail": "スクエアボディのトラックは、整備が簡単でアップグレードもしやすい。"
+            },
+            {
+              "label": "C",
+              "detail": "修理とチューニングの流れを安く学べる入門中古車。"
+            }
+          ]
+        },
+        {
+          "order": 4,
+          "name": "Breakout Garage レースガイド",
+          "description": "ストリート＆サーキットのドラッグレース、オーバル、ドリフト、タイムトライアル、耐久レースは、それぞれ違うセッティングと走り方を求めます。",
+          "href": "/mechanics/breakout-garage-drag-racing",
+          "displayType": "card-list",
+          "highlights": [
+            {
+              "label": "ドラッグ",
+              "detail": "発進グリップとギア比を軸にしたストリート＆サーキットのドラッグレース。"
+            },
+            {
+              "label": "オーバル",
+              "detail": "オーバルイベントは、滑らかなラインと安定したスロットルワークが報われます。"
+            },
+            {
+              "label": "ドリフト",
+              "detail": "ドリフトの採点は、ステアリング角、デフセッティング、リアのバランスが鍵。"
+            },
+            {
+              "label": "タイムトライアル",
+              "detail": "タイムトライアルの記録は、再現性のあるテスト走行でガレージのうちに決まる。"
+            },
+            {
+              "label": "耐久",
+              "detail": "耐久レースは冷却、タイヤ摩耗、燃料管理を試します。"
+            }
+          ]
+        },
+        {
+          "order": 5,
+          "name": "Breakout Garage 稼ぎ方ガイド",
+          "description": "レース賞金、配達ジョブ、デイリー目標、中古車の転売が、修理・パーツ・次の車の主な資金源です。",
+          "href": "/guide/breakout-garage-money-making-methods",
+          "displayType": "card-list",
+          "highlights": [
+            {
+              "label": "レース",
+              "detail": "確実に完走できるイベントを繰り返して、安定した報酬を得よう。"
+            },
+            {
+              "label": "配達",
+              "detail": "配達ジョブは、オープンワールドの地図を覚えながら安定して稼げます。"
+            },
+            {
+              "label": "転売",
+              "detail": "安い中古車を買って直し、利益を乗せて売ろう。"
+            },
+            {
+              "label": "イベント",
+              "detail": "デイリーと期間限定イベントは、短期的にもっとも大きな報酬をくれます。"
+            }
+          ]
+        },
+        {
+          "order": 6,
+          "name": "Breakout Garage 中古車",
+          "description": "中古車市場は安いプロジェクトの宝庫。見極め、修理、転売の方法を学びましょう。",
+          "href": "/vehicles/breakout-garage-vehicle-list",
+          "displayType": "card-list",
+          "highlights": [
+            {
+              "label": "見極め",
+              "detail": "お金を払う前に、圧縮、錆、傷んだパーツをチェック。"
+            },
+            {
+              "label": "修理",
+              "detail": "まずブレーキ、タイヤ、冷却を直し、レースを完走できる状態に。"
+            },
+            {
+              "label": "転売",
+              "detail": "自分のガレージが整ったら、車をレストアして転売しよう。"
+            },
+            {
+              "label": "掘り出し物",
+              "detail": "低走行で希少な駆動系を持つプロジェクトは、長期的に最高の買い物。"
+            }
+          ]
+        },
+        {
+          "order": 7,
+          "name": "Breakout Garage マルチプレイ",
+          "description": "Breakout Garage はP2Pマルチプレイに対応。ロビーを立てて友達を招待し、ゲーム内レースロビーで一緒に走ろう。",
+          "href": "/mechanics/breakout-garage-multiplayer",
+          "displayType": "step-by-step",
+          "highlights": [
+            {
+              "label": "1",
+              "detail": "P2Pロビーを立て、Steamのフレンドリストから友達を招待しよう。"
+            },
+            {
+              "label": "2",
+              "detail": "スタート前にクラスやビルドの制限を決めておこう。"
+            },
+            {
+              "label": "3",
+              "detail": "ゲーム内レースロビーに参加し、イベントの種類を選ぼう。"
+            },
+            {
+              "label": "4",
+              "detail": "すべてのビルドをルール内に収め、結果の一貫性を保とう。"
+            }
+          ]
+        },
+        {
+          "order": 8,
+          "name": "Breakout Garage アップデート",
+          "description": "早期アクセス版の成長に合わせて、公式パッチ、新車両、エンジン、ロードマップを追います。",
+          "href": "/release/breakout-garage-early-access",
+          "displayType": "card-list",
+          "highlights": [
+            {
+              "label": "パッチ",
+              "detail": "早期アクセス中は、バランス調整とバグ修正のパッチが定期的に配信されます。"
+            },
+            {
+              "label": "新車",
+              "detail": "5台で始まった車両ラインナップは、新車の追加が予定されています。"
+            },
+            {
+              "label": "エンジン",
+              "detail": "早期アクセスのロードマップには、より多くのエンジンとパーツが含まれています。"
+            },
+            {
+              "label": "ロードマップ",
+              "detail": "キャリアモード、マップ上のアクティビティ、カスタマイズが追加予定です。"
+            }
+          ]
+        }
+      ]
+    },
+    "faq": {
+      "title": "Breakout Garage よくある質問",
+      "description": "Breakout Garage についてよくある質問に手早く回答します。",
+      "items": [
+        {
+          "question": "Breakout Garage とは？",
+          "answer": "Breakout Garage は、Breakout Studio によるオープンワールドのレース＆車づくりシミュレーターで、テキサス風の町とクラシックなアメリカンマッスルカーが舞台です。2026年9月22日に Steam 早期アクセスで登場し、5台の車、3種類のエンジン、ドラッグ、オーバル、ドリフト、タイムトライアル、耐久イベントを収録しています。"
+        },
+        {
+          "question": "Breakout Garage は無料で遊べますか？",
+          "answer": "いいえ。Breakout Garage は Steam で販売される有料PCゲームで、現在は早期アクセス中です。確定したコードや無料通貨システムはありません。"
+        },
+        {
+          "question": "Breakout Garage では何から強化すべき？",
+          "answer": "まずタイヤ、ブレーキ、フルード、次にサスペンションとアライメント、そしてギア比。エンジンパワーは最後に。使いこなせないパワーはタイヤを空転させるだけです。"
+        },
+        {
+          "question": "Breakout Garage には何台の車がありますか？",
+          "answer": "早期アクセスのローンチ版には5台の車と3種類のエンジンが含まれます。開発陣は車両、パーツ、キャリア要素を順次拡充する予定です。"
+        },
+        {
+          "question": "Breakout Garage にマルチプレイはありますか？",
+          "answer": "はい。Breakout Garage はP2Pマルチプレイに対応しており、ロビーを立ててゲーム内レースロビーで友達と走れます。"
+        },
+        {
+          "question": "Breakout Garage でお金を稼ぐには？",
+          "answer": "レースイベント、配達ジョブ、デイリー目標、中古車の転売が主な収入源です。各セッションの最後に余ったパーツを売り、次のビルドに再投資しましょう。"
+        }
+      ]
+    },
+    "finalCta": {
+      "title": "Breakout Garage で車を組んで走る準備はできた？",
+      "description": "最初の安い中古車からフルチューニングのドラッグマシンまで、コミュニティウィキがすべてのビルド、チューニング、レースを無料の最新ガイドで網羅します。",
+      "primary": "初心者ガイドを読む",
+      "secondary": "Steamでプレイ"
+    }
+  },
+  "guide": {
+    "overviewTitle": "Breakout Garage ガイド",
+    "overviewDescription": "初心者ルート、操作、稼ぎ方、チューニング、ガレージで速くなるコツを扱う、手順つきの Breakout Garage ガイド。"
+  },
+  "mechanics": {
+    "overviewTitle": "Breakout Garage メカニクス",
+    "overviewDescription": "エンジンスワップ、チューニング、ローンチコントロール、ドラッグレース、リーダーボード、マルチプレイレースなど、Breakout Garage のメカニクスを深掘り。"
+  },
+  "vehicles": {
+    "overviewTitle": "Breakout Garage 車両",
+    "overviewDescription": "車両一覧、K5 ブレイザー、スクエアボディ、ドラッグトラックなど、ビルドのメモつきで Breakout Garage の全車両を紹介。"
+  },
+  "progression": {
+    "overviewTitle": "Breakout Garage 進行",
+    "overviewDescription": "キャリアモード、ボスレース、ハードモード、次のビルドを支える稼ぎの流れなど、Breakout Garage の進め方。"
+  },
+  "platforms": {
+    "overviewTitle": "Breakout Garage 対応機種",
+    "overviewDescription": "PC、Steam、PS5、Xbox、コンソールでの Breakout Garage の遊び方と、対応状況、クロスプレイの疑問を解説。"
+  },
+  "release": {
+    "overviewTitle": "Breakout Garage リリース",
+    "overviewDescription": "早期アクセス、デモ、ベータ、プレイテスト、最新のリリース日情報など、Breakout Garage のリリース詳細。"
+  },
+  "community": {
+    "overviewTitle": "Breakout Garage コミュニティ",
+    "overviewDescription": "公式Discord、Reddit、Patreon、MODシーンなど、Breakout Garage のコミュニティに参加しよう。"
+  },
+  "shared": {
+    "wikiNavigation": "ウィキナビ",
+    "updated": "更新",
+    "playOnRoblox": "Steamでプレイ",
+    "inThisSection": "このセクション",
+    "tableOfContents": "目次",
+    "nextSteps": "次のステップ",
+    "needHelp": "ヘルプが必要？",
+    "relatedReading": "関連記事",
+    "relatedGuides": "関連ガイド",
+    "readMore": "続きを読む",
+    "officialMedia": "公式メディア",
+    "home": "ホーム",
+    "noGuidesAvailable": "まだガイドがありません。近日公開予定です！"
+  },
+  "footer": {
+    "aboutTitle": "Breakout Garage Wiki",
+    "about": "Breakout Garage Wiki は、車づくり、エンジンチューニング、ドラッグレース、パーツ、稼ぎ方、マルチプレイ、そして新旧プレイヤーに役立つ基礎知識を扱う、ファン制作の独立ガイドハブです。",
+    "quickLinks": "クイックリンク",
+    "guides": "ガイド",
+    "legal": "法務",
+    "copyright": "2026 Breakout Garage Wiki。Breakout Studio および Steam とは提携していません。",
+    "description": "PC向けオープンワールドの車づくり＆ドラッグレースシム。5台の車、3種類のエンジン、奥深いチューニング。",
+    "playGame": "Steamで Breakout Garage をプレイ",
+    "officialDiscord": "公式Discord",
+    "officialYoutube": "公式YouTube",
+    "vvBuilder": "Steamコミュニティ",
+    "beginnerGuide": "初心者ガイド",
+    "raceGuides": "レースガイド",
+    "bossGuides": "ボスガイド",
+    "buildGuide": "ビルドガイド",
+    "privacyPolicy": "プライバシーポリシー",
+    "termsOfService": "利用規約"
+  }
+}

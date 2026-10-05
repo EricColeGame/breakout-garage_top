@@ -1,1 +1,485 @@
-{}
+{
+  "site": {
+    "name": "Breakout Garage Wiki",
+    "shortName": "Breakout Garage",
+    "tagline": "차량 제작, 엔진 튜닝 & 드래그 레이싱 가이드",
+    "description": "Breakout Garage Wiki는 PC 얼리 액세스 레이싱 시뮬의 차량 제작, 엔진 튜닝, 드래그 레이싱, 부품, 조작, 돈 버는 팁, 멀티플레이, 업데이트, 초보자 가이드를 다룹니다.",
+    "legalNotice": "비공식 팬 위키. 플레이어가 플레이어를 위해 만들었습니다."
+  },
+  "nav": {
+    "home": "홈",
+    "menu": "메뉴",
+    "toggleTheme": "테마 전환",
+    "guide": "가이드",
+    "mechanics": "메커니즘",
+    "vehicles": "차량",
+    "progression": "진행",
+    "platforms": "플랫폼",
+    "release": "출시",
+    "community": "커뮤니티"
+  },
+  "home": {
+    "meta": {
+      "title": "Breakout Garage Wiki - 튜닝, 차량 & 드래그 레이싱",
+      "description": "Breakout Garage Wiki는 PC 얼리 액세스의 차량 제작, 엔진 튜닝, 드래그 레이싱, 부품, 조작, 돈 버는 팁, 멀티플레이, 업데이트, 초보자 가이드를 다룹니다."
+    },
+    "hero": {
+      "eyebrow": "팬 제작 커뮤니티 위키",
+      "title": "Breakout Garage Wiki",
+      "description": "텍사스풍 오픈 월드에서 클래식 아메리칸 카를 조립하고 수리하고 튜닝하고 커스터마이즈하며 레이스하세요. 깊이 있는 엔진 튜닝, 드래그 레이싱, 오벌 이벤트, 멀티플레이를 즐길 수 있습니다.",
+      "stats": [
+        "차량 5대 수록",
+        "엔진 3종",
+        "Steam 사용자 리뷰 108개",
+        "Steam 도전 과제 11개"
+      ],
+      "primaryCta": "Steam에서 플레이",
+      "secondaryCta": "초보자 가이드",
+      "tertiaryCta": "Steam 커뮤니티",
+      "videoLabel": "공식 미디어"
+    },
+    "updates": {
+      "title": "최신 업데이트",
+      "browse": "모든 가이드 보기",
+      "viewAll": "전체 보기"
+    },
+    "start": {
+      "eyebrow": "여기서 시작",
+      "title": "Breakout Garage 여정",
+      "cards": [
+        {
+          "number": "1",
+          "title": "초보자 가이드",
+          "description": "값싼 첫 중고차로 차고 루프를 배우세요. 큰 마력을 좇기 전에 사고, 수리하고, 조립하고, 튜닝하고, 달리고, 버는 법을 익힙니다."
+        },
+        {
+          "number": "2",
+          "title": "튜닝 & 업그레이드",
+          "description": "타이어와 서스펜션부터 기어비까지 올바른 순서로 돈을 써서, 장착한 부품이 실제로 기록을 줄이도록 하세요."
+        },
+        {
+          "number": "3",
+          "title": "돈 버는 방법",
+          "description": "레이스 상금, 배달 일, 일일 목표, 중고차 되팔기를 루틴으로 묶어 다음 빌드 자금을 마련하세요."
+        },
+        {
+          "number": "4",
+          "title": "최고의 차량 & 빌드",
+          "description": "출시 차량 5대와 엔진 3종을 비교해 드래그, 오벌, 드리프트, 타임 트라이얼에 맞는 차를 고르세요."
+        }
+      ]
+    },
+    "popular": {
+      "eyebrow": "인기 페이지",
+      "title": "지금 인기",
+      "quickLinks": [
+        "튜닝 가이드",
+        "차량 목록",
+        "돈 버는 법",
+        "드래그 레이싱"
+      ],
+      "cards": [
+        {
+          "badge": "초보자",
+          "title": "초보자 가이드",
+          "description": "조작부터 첫 튜닝 레이스카까지, 차고에서 보내는 첫 몇 시간에 필요한 모든 것.",
+          "href": "/guide/breakout-garage-beginner-guide"
+        },
+        {
+          "badge": "핵심",
+          "title": "튜닝 가이드",
+          "description": "업그레이드 순서, 빌드 유형, 기어비, 테스트 랩 습관으로 거친 차를 승리 머신으로.",
+          "href": "/guide/breakout-garage-tuning-guide"
+        },
+        {
+          "badge": "인기",
+          "title": "차량 목록",
+          "description": "차량 등급과 티어를 설명해 이벤트마다 알맞은 차를 고를 수 있게 합니다.",
+          "href": "/vehicles/breakout-garage-car-list"
+        },
+        {
+          "badge": "인기",
+          "title": "드래그 레이싱",
+          "description": "출발 접지력, 기어비, 무게 이동, 반복 가능한 테스트 앤 튜닝 워크플로.",
+          "href": "/mechanics/breakout-garage-drag-racing"
+        },
+        {
+          "badge": "돈",
+          "title": "돈 버는 방법",
+          "description": "수리, 부품, 다음 차량 자금을 마련하는 가장 확실한 수익 루틴.",
+          "href": "/guide/breakout-garage-money-making-methods"
+        },
+        {
+          "badge": "차량",
+          "title": "모든 차량",
+          "description": "얼리 액세스 차고의 모든 차량을 해금하는 컬렉터 로드맵.",
+          "href": "/vehicles/breakout-garage-all-cars"
+        },
+        {
+          "badge": "부품",
+          "title": "엔진 업그레이드",
+          "description": "어떤 부품을 먼저 사야 하는지, 보조 부품이 파워를 노면에 전달하는 방법.",
+          "href": "/mechanics/breakout-garage-engine-upgrades"
+        },
+        {
+          "badge": "멀티플레이",
+          "title": "멀티플레이 가이드",
+          "description": "P2P 로비와 게임 내 레이스 로비 이벤트로 친구와 즐기는 방법.",
+          "href": "/mechanics/breakout-garage-multiplayer"
+        },
+        {
+          "badge": "출시",
+          "title": "얼리 액세스",
+          "description": "얼리 액세스 빌드에 포함된 내용과 향후 성장 계획.",
+          "href": "/release/breakout-garage-early-access"
+        }
+      ]
+    },
+    "aboutGame": {
+      "title": "Breakout Garage란?",
+      "paragraphs": [
+        "Breakout Garage는 Breakout Studio가 만든 오픈 월드 드라이빙 & 레이싱 시뮬레이터로, 텍사스풍 소도시에서 클래식 아메리칸 머슬카를 사고, 수리하고, 다시 조립하고, 직접 튜닝하는 게임입니다. 2026년 9월 22일 Steam 얼리 액세스로 출시되어 차량 5대, 엔진 3종, 드래그, 오벌, 드리프트, 타임 트라이얼, 내구 레이스를 제공합니다.",
+        "핵심 루프는 구매, 수리, 조립, 튜닝, 레이스, 수익, 업그레이드입니다. 흡기, 공연비, 점화 시점, 압축, 부스트, 기어비, 서스펜션, 타이어, 무게, 에어로까지 다루는 깊은 엔진 튜닝과 게임 내 레이스 로비에서 친구와 달릴 수 있는 P2P 멀티플레이가 특징입니다. 저희 위키는 모든 시스템을 가이드, 데이터 표, 단계별 설명으로 정리합니다."
+      ],
+      "stats": [
+        {
+          "label": "개발사",
+          "value": "Breakout Studio"
+        },
+        {
+          "label": "플랫폼",
+          "value": "PC / Steam"
+        },
+        {
+          "label": "장르",
+          "value": "레이싱 시뮬"
+        },
+        {
+          "label": "상태",
+          "value": "얼리 액세스"
+        },
+        {
+          "label": "수록 차량",
+          "value": "5"
+        },
+        {
+          "label": "엔진 종류",
+          "value": "3"
+        },
+        {
+          "label": "도전 과제",
+          "value": "11"
+        }
+      ],
+      "cta": "초보자 가이드 읽기"
+    },
+    "explore": {
+      "title": "Breakout Garage Wiki 둘러보기",
+      "description": "초보자 가이드, 엔진 튜닝 워크스루, 차량 목록, 드래그 레이싱 팁, 돈 버는 법, 멀티플레이 도움말, 얼리 액세스 소식으로 Breakout Garage를 마스터하세요.",
+      "modules": [
+        {
+          "order": 1,
+          "name": "Breakout Garage 초보자 가이드",
+          "description": "차고 루프, 조작, 첫 중고차, 초반에 달릴 만한 레이스를 다루는 신규 플레이어용 단계별 시작 가이드.",
+          "href": "/guide/breakout-garage-beginner-guide",
+          "displayType": "step-by-step",
+          "highlights": [
+            {
+              "label": "1",
+              "detail": "돈을 쓰기 전에 차고를 둘러보고 모든 메모를 읽으세요."
+            },
+            {
+              "label": "2",
+              "detail": "값싼 중고차를 사고 마모된 부품을 고치며 구매→업그레이드 루프를 익히세요."
+            },
+            {
+              "label": "3",
+              "detail": "타이어와 기본 튜닝을 살 수 있을 때까지 가장 쉬운 레이스를 반복하세요."
+            },
+            {
+              "label": "4",
+              "detail": "목표 빌드에서 역산해 모든 부품 구매에 목적을 부여하세요."
+            }
+          ]
+        },
+        {
+          "order": 2,
+          "name": "Breakout Garage 차량 튜닝",
+          "description": "엔진, 흡기, 기어비, 서스펜션, 타이어, 무게가 파워 전달을 좌우합니다. 가장 빨리 효과를 보는 순서를 배우세요.",
+          "href": "/mechanics/breakout-garage-tuning",
+          "displayType": "code-cards",
+          "highlights": [
+            {
+              "label": "타이어",
+              "detail": "타이어 컴파운드와 공기압은 가장 저렴하게 랩타임을 줄이는 방법입니다."
+            },
+            {
+              "label": "서스펜션",
+              "detail": "스프링, 댐퍼, 캠버, 토가 무게 이동과 코너링 접지력을 좌우합니다."
+            },
+            {
+              "label": "기어비",
+              "detail": "기어비와 파이널 드라이브로 엔진을 파워 밴드 안에 유지합니다."
+            },
+            {
+              "label": "ECU 튠",
+              "detail": "연료와 점화 시점이 파워 커브를 만들므로 출력 튜닝은 마지막에 하세요."
+            }
+          ]
+        },
+        {
+          "order": 3,
+          "name": "Breakout Garage 차량과 부품",
+          "description": "출시 차고에는 차량 5대와 엔진 3종이 있으며, 이 모듈은 각 플랫폼의 강점과 성능을 깨우는 부품을 정리합니다.",
+          "href": "/vehicles/breakout-garage-car-list",
+          "displayType": "tier-grid",
+          "highlights": [
+            {
+              "label": "S",
+              "detail": "드래그 트럭은 일관성이 승부를 가르는 브래킷/인덱스 클래스용 빌드."
+            },
+            {
+              "label": "A",
+              "detail": "K5 블레이저는 애프터마켓 지원이 두터운 클래식 쉐보레 4x4 플랫폼."
+            },
+            {
+              "label": "B",
+              "detail": "스퀘어 바디 트럭은 정비가 간단하고 업그레이드가 쉽습니다."
+            },
+            {
+              "label": "C",
+              "detail": "수리와 튜닝 루프를 저렴하게 가르쳐 주는 입문 중고차."
+            }
+          ]
+        },
+        {
+          "order": 4,
+          "name": "Breakout Garage 레이싱 가이드",
+          "description": "스트리트와 스트립 드래그, 오벌, 드리프트, 타임 트라이얼, 내구 레이스는 각각 다른 세팅과 주행 스타일을 요구합니다.",
+          "href": "/mechanics/breakout-garage-drag-racing",
+          "displayType": "card-list",
+          "highlights": [
+            {
+              "label": "드래그",
+              "detail": "출발 접지력과 기어비를 중심으로 한 스트리트 & 스트립 드래그 레이싱."
+            },
+            {
+              "label": "오벌",
+              "detail": "오벌 이벤트는 매끄러운 라인과 일정한 스로틀 컨트롤에 보답합니다."
+            },
+            {
+              "label": "드리프트",
+              "detail": "드리프트 채점은 조향 각도, 디퍼렌셜 세팅, 후륜 밸런스를 중시합니다."
+            },
+            {
+              "label": "타임 트라이얼",
+              "detail": "타임 트라이얼 기록은 반복 가능한 테스트 랩으로 차고에서 결정됩니다."
+            },
+            {
+              "label": "내구",
+              "detail": "내구 레이스는 냉각, 타이어 마모, 연료 관리를 시험합니다."
+            }
+          ]
+        },
+        {
+          "order": 5,
+          "name": "Breakout Garage 돈벌이 가이드",
+          "description": "레이스 상금, 배달 일, 일일 목표, 중고차 되팔기가 수리, 부품, 다음 차량 자금의 주요 수단입니다.",
+          "href": "/guide/breakout-garage-money-making-methods",
+          "displayType": "card-list",
+          "highlights": [
+            {
+              "label": "레이스",
+              "detail": "깔끔하게 완주할 수 있는 이벤트를 반복해 꾸준한 보상을 얻으세요."
+            },
+            {
+              "label": "배달",
+              "detail": "배달 일은 오픈 월드 지도를 익히면서 안정적으로 돈을 법니다."
+            },
+            {
+              "label": "되팔기",
+              "detail": "값싼 중고차를 사서 고친 뒤 이익을 붙여 되파세요."
+            },
+            {
+              "label": "이벤트",
+              "detail": "일일 및 기간 한정 이벤트가 단기 최대 보상을 제공합니다."
+            }
+          ]
+        },
+        {
+          "order": 6,
+          "name": "Breakout Garage 중고차",
+          "description": "중고차 시장은 값싼 프로젝트의 보고입니다. 점검, 수리, 되팔기 방법을 배우세요.",
+          "href": "/vehicles/breakout-garage-vehicle-list",
+          "displayType": "card-list",
+          "highlights": [
+            {
+              "label": "점검",
+              "detail": "돈을 건네기 전에 압축, 녹, 마모된 부품을 확인하세요."
+            },
+            {
+              "label": "수리",
+              "detail": "먼저 브레이크, 타이어, 냉각을 고쳐 레이스를 완주할 수 있게 하세요."
+            },
+            {
+              "label": "되팔기",
+              "detail": "내 차고가 정리되면 차를 복원해 되파세요."
+            },
+            {
+              "label": "알뜰 매물",
+              "detail": "주행거리가 짧고 희귀한 구동계를 가진 매물이 장기적으로 최고의 구매입니다."
+            }
+          ]
+        },
+        {
+          "order": 7,
+          "name": "Breakout Garage 멀티플레이",
+          "description": "Breakout Garage는 P2P 멀티플레이를 지원합니다. 로비를 열고 친구를 초대해 게임 내 레이스 로비에서 함께 달리세요.",
+          "href": "/mechanics/breakout-garage-multiplayer",
+          "displayType": "step-by-step",
+          "highlights": [
+            {
+              "label": "1",
+              "detail": "P2P 로비를 열고 Steam 친구 목록에서 친구를 초대하세요."
+            },
+            {
+              "label": "2",
+              "detail": "출발선에 서기 전에 클래스나 빌드 제한을 합의하세요."
+            },
+            {
+              "label": "3",
+              "detail": "게임 내 레이스 로비에 참가해 이벤트 종류를 고르세요."
+            },
+            {
+              "label": "4",
+              "detail": "모든 빌드를 규칙 안에 맞춰 결과의 일관성을 유지하세요."
+            }
+          ]
+        },
+        {
+          "order": 8,
+          "name": "Breakout Garage 업데이트",
+          "description": "얼리 액세스 빌드가 성장함에 따라 공식 패치, 신차, 엔진, 로드맵 계획을 추적합니다.",
+          "href": "/release/breakout-garage-early-access",
+          "displayType": "card-list",
+          "highlights": [
+            {
+              "label": "패치",
+              "detail": "얼리 액세스 기간에는 밸런스와 버그 수정 패치가 정기적으로 적용됩니다."
+            },
+            {
+              "label": "신차",
+              "detail": "차량 5대로 시작한 라인업은 신차로 확장될 예정입니다."
+            },
+            {
+              "label": "엔진",
+              "detail": "더 많은 엔진과 부품이 얼리 액세스 로드맵에 있습니다."
+            },
+            {
+              "label": "로드맵",
+              "detail": "커리어 모드, 맵 활동, 커스터마이즈가 추가될 예정입니다."
+            }
+          ]
+        }
+      ]
+    },
+    "faq": {
+      "title": "Breakout Garage FAQ",
+      "description": "Breakout Garage에 대해 가장 많이 묻는 질문에 빠르게 답합니다.",
+      "items": [
+        {
+          "question": "Breakout Garage란?",
+          "answer": "Breakout Garage는 Breakout Studio의 오픈 월드 레이싱 & 차량 제작 시뮬레이터로, 텍사스풍 마을과 클래식 아메리칸 머슬카를 배경으로 합니다. 2026년 9월 22일 Steam 얼리 액세스로 출시되어 차량 5대, 엔진 3종, 드래그, 오벌, 드리프트, 타임 트라이얼, 내구 이벤트를 제공합니다."
+        },
+        {
+          "question": "Breakout Garage는 무료인가요?",
+          "answer": "아니요. Breakout Garage는 Steam에서 판매하는 유료 PC 게임이며 현재 얼리 액세스 중입니다. 확정된 코드나 무료 재화 시스템은 없습니다."
+        },
+        {
+          "question": "Breakout Garage에서 무엇을 먼저 업그레이드해야 하나요?",
+          "answer": "타이어, 브레이크, 오일류를 먼저, 그다음 서스펜션과 얼라인먼트, 그다음 기어비를 올리세요. 엔진 출력은 마지막입니다. 쓸모없는 출력은 타이어만 헛도는 원인이 됩니다."
+        },
+        {
+          "question": "Breakout Garage에는 차가 몇 대 있나요?",
+          "answer": "얼리 액세스 출시 빌드에는 차량 5대와 엔진 3종이 포함됩니다. 개발진은 차량, 부품, 커리어 콘텐츠를 순차적으로 확장할 계획입니다."
+        },
+        {
+          "question": "Breakout Garage에 멀티플레이가 있나요?",
+          "answer": "네. Breakout Garage는 P2P 멀티플레이를 지원해 로비를 열고 게임 내 레이스 로비에서 친구와 달릴 수 있습니다."
+        },
+        {
+          "question": "Breakout Garage에서 돈을 버는 방법은?",
+          "answer": "레이스 이벤트, 배달 일, 일일 목표, 중고차 되팔기가 주요 수입원입니다. 매 세션 끝에 남는 부품을 팔고 다음 빌드에 재투자하세요."
+        }
+      ]
+    },
+    "finalCta": {
+      "title": "Breakout Garage에서 조립하고 달릴 준비 되셨나요?",
+      "description": "값싼 첫 중고차부터 완전히 튜닝한 드래그 머신까지, 커뮤니티 위키가 모든 빌드, 튜닝, 레이스를 무료 최신 가이드로 다룹니다.",
+      "primary": "초보자 가이드 읽기",
+      "secondary": "Steam에서 플레이"
+    }
+  },
+  "guide": {
+    "overviewTitle": "Breakout Garage 가이드",
+    "overviewDescription": "초보자 루트, 조작, 돈 버는 법, 튜닝, 차고에서 더 빨라지는 팁을 다루는 단계별 Breakout Garage 가이드."
+  },
+  "mechanics": {
+    "overviewTitle": "Breakout Garage 메커니즘",
+    "overviewDescription": "엔진 스왑, 튜닝, 런치 컨트롤, 드래그 레이싱, 리더보드, 멀티플레이 레이싱 등 Breakout Garage 메커니즘을 깊이 파헤칩니다."
+  },
+  "vehicles": {
+    "overviewTitle": "Breakout Garage 차량",
+    "overviewDescription": "전체 차량 목록, K5 블레이저, 스퀘어 바디, 드래그 트럭까지 빌드 노트와 함께 정리한 Breakout Garage의 모든 차량."
+  },
+  "progression": {
+    "overviewTitle": "Breakout Garage 진행",
+    "overviewDescription": "커리어 모드, 보스 레이스, 하드 모드, 다음 빌드 자금을 대는 수익 루프 등 Breakout Garage 진행 방법."
+  },
+  "platforms": {
+    "overviewTitle": "Breakout Garage 플랫폼",
+    "overviewDescription": "PC, Steam, PS5, Xbox, 콘솔에서 Breakout Garage를 즐기는 방법과 플랫폼 정보, 이용 가능 여부, 크로스플레이 질문을 다룹니다."
+  },
+  "release": {
+    "overviewTitle": "Breakout Garage 출시",
+    "overviewDescription": "얼리 액세스, 데모, 베타, 플레이테스트, 최신 출시일 소식 등 Breakout Garage 출시 정보."
+  },
+  "community": {
+    "overviewTitle": "Breakout Garage 커뮤니티",
+    "overviewDescription": "공식 디스코드, 레딧, 패트리온, 모딩 씬 등 Breakout Garage 커뮤니티에 참여하세요."
+  },
+  "shared": {
+    "wikiNavigation": "위키 내비게이션",
+    "updated": "업데이트",
+    "playOnRoblox": "Steam에서 플레이",
+    "inThisSection": "이 섹션에서",
+    "tableOfContents": "목차",
+    "nextSteps": "다음 단계",
+    "needHelp": "도움이 필요하신가요?",
+    "relatedReading": "관련 읽을거리",
+    "relatedGuides": "관련 가이드",
+    "readMore": "더 보기",
+    "officialMedia": "공식 미디어",
+    "home": "홈",
+    "noGuidesAvailable": "아직 가이드가 없습니다. 곧 업데이트됩니다!"
+  },
+  "footer": {
+    "aboutTitle": "Breakout Garage Wiki",
+    "about": "Breakout Garage Wiki는 차량 제작, 엔진 튜닝, 드래그 레이싱, 부품, 돈벌이, 멀티플레이, 그리고 신규와 베테랑 플레이어 모두에게 필요한 핵심 지식을 다루는 독립 팬 제작 가이드 허브입니다.",
+    "quickLinks": "빠른 링크",
+    "guides": "가이드",
+    "legal": "법적 고지",
+    "copyright": "2026 Breakout Garage Wiki. Breakout Studio 및 Steam과 제휴 관계가 없습니다.",
+    "description": "PC용 오픈 월드 차량 제작 & 드래그 레이싱 시뮬. 차량 5대, 엔진 3종, 깊이 있는 튜닝.",
+    "playGame": "Steam에서 Breakout Garage 플레이",
+    "officialDiscord": "공식 디스코드",
+    "officialYoutube": "공식 유튜브",
+    "vvBuilder": "Steam 커뮤니티",
+    "beginnerGuide": "초보자 가이드",
+    "raceGuides": "레이스 가이드",
+    "bossGuides": "보스 가이드",
+    "buildGuide": "빌드 가이드",
+    "privacyPolicy": "개인정보 처리방침",
+    "termsOfService": "이용약관"
+  }
+}

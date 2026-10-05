@@ -1,1 +1,485 @@
-{}
+{
+  "site": {
+    "name": "Breakout Garage Wiki",
+    "shortName": "Breakout Garage",
+    "tagline": "Guías de preparación de coches, ajuste de motores y carreras de aceleración",
+    "description": "Breakout Garage Wiki cubre la preparación de coches, el ajuste de motores, las carreras de aceleración, las piezas, los controles, los consejos para ganar dinero, el multijugador, las actualizaciones y las guías para principiantes del simulador de carreras en Acceso Anticipado para PC.",
+    "legalNotice": "Wiki de fans no oficial. Hecha por jugadores, para jugadores."
+  },
+  "nav": {
+    "home": "Inicio",
+    "menu": "Menú",
+    "toggleTheme": "Cambiar tema",
+    "guide": "Guía",
+    "mechanics": "Mecánicas",
+    "vehicles": "Vehículos",
+    "progression": "Progresión",
+    "platforms": "Plataformas",
+    "release": "Lanzamiento",
+    "community": "Comunidad"
+  },
+  "home": {
+    "meta": {
+      "title": "Breakout Garage Wiki: ajuste, coches y carreras de aceleración",
+      "description": "Breakout Garage Wiki cubre la preparación de coches, el ajuste de motores, las carreras de aceleración, las piezas, los controles, los consejos para ganar dinero, el multijugador, las actualizaciones y las guías para principiantes del Acceso Anticipado para PC."
+    },
+    "hero": {
+      "eyebrow": "Wiki comunitaria hecha por fans",
+      "title": "Breakout Garage Wiki",
+      "description": "Arma, repara, ajusta, personaliza y corre con coches clásicos americanos en un mundo abierto inspirado en Texas, con ajuste profundo de motores, carreras de aceleración, pruebas ovales y multijugador.",
+      "stats": [
+        "5 coches disponibles",
+        "3 tipos de motor",
+        "108 reseñas de usuarios de Steam",
+        "11 logros de Steam"
+      ],
+      "primaryCta": "Jugar en Steam",
+      "secondaryCta": "Guía para principiantes",
+      "tertiaryCta": "Comunidad de Steam",
+      "videoLabel": "Medios oficiales"
+    },
+    "updates": {
+      "title": "Últimas actualizaciones",
+      "browse": "Ver todas las guías",
+      "viewAll": "Ver todo"
+    },
+    "start": {
+      "eyebrow": "Empieza aquí",
+      "title": "Tu camino en Breakout Garage",
+      "cards": [
+        {
+          "number": "1",
+          "title": "Guía para principiantes",
+          "description": "Aprende el bucle del garaje desde tu primer coche usado barato: compra, repara, arma, ajusta, corre y gana antes de buscar grandes caballos."
+        },
+        {
+          "number": "2",
+          "title": "Ajuste y mejoras",
+          "description": "Gasta tu dinero en el orden correcto, desde neumáticos y suspensión hasta relaciones de cambio, para que cada pieza que montes baje tus tiempos."
+        },
+        {
+          "number": "3",
+          "title": "Métodos para ganar dinero",
+          "description": "Combina premios de carrera, trabajos de reparto, objetivos diarios y reventa de coches usados en una rutina que financie tu próximo proyecto."
+        },
+        {
+          "number": "4",
+          "title": "Mejores coches y configuraciones",
+          "description": "Compara los 5 coches iniciales y los 3 tipos de motor para elegir la plataforma ideal para aceleración, óvalo, drift y contrarreloj."
+        }
+      ]
+    },
+    "popular": {
+      "eyebrow": "Páginas populares",
+      "title": "Tendencias",
+      "quickLinks": [
+        "Guía de ajuste",
+        "Lista de coches",
+        "Ganar dinero",
+        "Carreras de aceleración"
+      ],
+      "cards": [
+        {
+          "badge": "Principiante",
+          "title": "Guía para principiantes",
+          "description": "Todo lo que necesitas para tus primeras horas en el garaje, desde los controles hasta tu primer coche de carreras ajustado.",
+          "href": "/guide/breakout-garage-beginner-guide"
+        },
+        {
+          "badge": "Esencial",
+          "title": "Guía de ajuste",
+          "description": "Orden de mejoras, arquetipos de preparación, relaciones de cambio y hábitos de vueltas de prueba que convierten un coche tosco en un ganador.",
+          "href": "/guide/breakout-garage-tuning-guide"
+        },
+        {
+          "badge": "Popular",
+          "title": "Lista de coches",
+          "description": "Todas las clases y niveles de vehículos explicados para elegir el coche adecuado en cada evento.",
+          "href": "/vehicles/breakout-garage-car-list"
+        },
+        {
+          "badge": "Popular",
+          "title": "Carreras de aceleración",
+          "description": "Tracción de salida, relaciones de cambio, transferencia de peso y un flujo repetible de prueba y ajuste.",
+          "href": "/mechanics/breakout-garage-drag-racing"
+        },
+        {
+          "badge": "Dinero",
+          "title": "Métodos para ganar dinero",
+          "description": "Las rutinas de ingresos más fiables para financiar reparaciones, piezas y tu próximo coche.",
+          "href": "/guide/breakout-garage-money-making-methods"
+        },
+        {
+          "badge": "Vehículos",
+          "title": "Todos los coches",
+          "description": "Una hoja de ruta para coleccionistas y desbloquear todos los vehículos del garaje de Acceso Anticipado.",
+          "href": "/vehicles/breakout-garage-all-cars"
+        },
+        {
+          "badge": "Piezas",
+          "title": "Mejoras de motor",
+          "description": "Qué piezas comprar primero y cómo las mejoras de apoyo hacen utilizable la potencia en la pista.",
+          "href": "/mechanics/breakout-garage-engine-upgrades"
+        },
+        {
+          "badge": "Multijugador",
+          "title": "Guía de multijugador",
+          "description": "Cómo funcionan las salas peer-to-peer y los eventos de la sala de carreras con amigos.",
+          "href": "/mechanics/breakout-garage-multiplayer"
+        },
+        {
+          "badge": "Lanzamiento",
+          "title": "Acceso Anticipado",
+          "description": "Qué incluye la versión de Acceso Anticipado y cómo se planea que crezca el juego.",
+          "href": "/release/breakout-garage-early-access"
+        }
+      ]
+    },
+    "aboutGame": {
+      "title": "¿Qué es Breakout Garage?",
+      "paragraphs": [
+        "Breakout Garage es un simulador de conducción y carreras de mundo abierto de Breakout Studio, ambientado en un pequeño pueblo inspirado en Texas donde se compran, reparan, reconstruyen y ajustan a mano coches muscle americanos clásicos. Entró en Acceso Anticipado de Steam el 22 de septiembre de 2026 con 5 coches, 3 tipos de motor y carreras sencillas de aceleración, óvalo, drift, contrarreloj y resistencia.",
+        "El bucle principal es comprar, reparar, armar, ajustar, correr, ganar y mejorar. El ajuste profundo del motor abarca admisión, relación aire-combustible, avance de encendido, compresión, turbo, relaciones de cambio, suspensión, neumáticos, peso y aerodinámica, mientras que el multijugador peer-to-peer te permite correr con amigos en la sala de carreras del juego. Nuestra wiki documenta cada sistema con guías, tablas de datos y tutoriales paso a paso."
+      ],
+      "stats": [
+        {
+          "label": "Desarrollador",
+          "value": "Breakout Studio"
+        },
+        {
+          "label": "Plataforma",
+          "value": "PC / Steam"
+        },
+        {
+          "label": "Género",
+          "value": "Simulador de carreras"
+        },
+        {
+          "label": "Estado",
+          "value": "Acceso Anticipado"
+        },
+        {
+          "label": "Coches disponibles",
+          "value": "5"
+        },
+        {
+          "label": "Tipos de motor",
+          "value": "3"
+        },
+        {
+          "label": "Logros",
+          "value": "11"
+        }
+      ],
+      "cta": "Leer la guía para principiantes"
+    },
+    "explore": {
+      "title": "Explora Breakout Garage Wiki",
+      "description": "Domina Breakout Garage con guías para principiantes, tutoriales de ajuste de motor, listas de coches, consejos de aceleración, métodos para ganar dinero, ayuda de multijugador y novedades del Acceso Anticipado.",
+      "modules": [
+        {
+          "order": 1,
+          "name": "Guía para principiantes de Breakout Garage",
+          "description": "Un inicio paso a paso para nuevos jugadores que cubre el bucle del garaje, los controles, tu primer coche usado y las primeras carreras que merecen la pena.",
+          "href": "/guide/breakout-garage-beginner-guide",
+          "displayType": "step-by-step",
+          "highlights": [
+            {
+              "label": "1",
+              "detail": "Recorre el garaje y lee cada nota antes de gastar dinero."
+            },
+            {
+              "label": "2",
+              "detail": "Compra un coche usado barato, repara las piezas desgastadas y aprende el bucle de comprar para mejorar."
+            },
+            {
+              "label": "3",
+              "detail": "Corre los eventos más fáciles hasta que puedas pagar neumáticos y un ajuste básico."
+            },
+            {
+              "label": "4",
+              "detail": "Trabaja desde tu preparación objetivo para que cada pieza comprada tenga un propósito."
+            }
+          ]
+        },
+        {
+          "order": 2,
+          "name": "Ajuste de coches en Breakout Garage",
+          "description": "Motor, admisión, relaciones de cambio, suspensión, neumáticos y peso determinan cómo un coche transmite su potencia. Aprende el orden que da resultados más rápido.",
+          "href": "/mechanics/breakout-garage-tuning",
+          "displayType": "code-cards",
+          "highlights": [
+            {
+              "label": "Neumáticos",
+              "detail": "El compuesto y la presión de los neumáticos son la mejora de tiempo por vuelta más barata."
+            },
+            {
+              "label": "Suspensión",
+              "detail": "Muelles, amortiguadores, caída y convergencia controlan la transferencia de peso y el agarre en curva."
+            },
+            {
+              "label": "Relaciones de cambio",
+              "detail": "Las relaciones de cambio y el grupo final mantienen el motor dentro de su banda de potencia."
+            },
+            {
+              "label": "Ajuste de ECU",
+              "detail": "El combustible y el avance de encendido definen la curva de potencia, así que ajusta la potencia al final."
+            }
+          ]
+        },
+        {
+          "order": 3,
+          "name": "Coches y piezas de Breakout Garage",
+          "description": "El garaje inicial incluye 5 coches y 3 tipos de motor, y este módulo repasa cada plataforma, sus puntos fuertes y las piezas que la despiertan.",
+          "href": "/vehicles/breakout-garage-car-list",
+          "displayType": "tier-grid",
+          "highlights": [
+            {
+              "label": "S",
+              "detail": "Preparaciones de Drag Truck para clases bracket e index, donde la consistencia gana rondas."
+            },
+            {
+              "label": "A",
+              "detail": "K5 Blazer, una plataforma 4x4 clásica de Chevy con gran apoyo del mercado de accesorios."
+            },
+            {
+              "label": "B",
+              "detail": "Camionetas Square Body, sencillas de reparar y fáciles de mejorar."
+            },
+            {
+              "label": "C",
+              "detail": "Coches usados iniciales que enseñan el bucle de reparación y ajuste a bajo coste."
+            }
+          ]
+        },
+        {
+          "order": 4,
+          "name": "Guía de carreras de Breakout Garage",
+          "description": "Las carreras de aceleración en calle y circuito, los óvalos, el drift, las contrarreloj y la resistencia premian cada una una configuración y un estilo de conducción distintos.",
+          "href": "/mechanics/breakout-garage-drag-racing",
+          "displayType": "card-list",
+          "highlights": [
+            {
+              "label": "Aceleración",
+              "detail": "Carreras de aceleración en calle y circuito centradas en el agarre de salida y las relaciones de cambio."
+            },
+            {
+              "label": "Óvalo",
+              "detail": "Los eventos ovales premian las trazadas suaves y el control constante del acelerador."
+            },
+            {
+              "label": "Drift",
+              "detail": "La puntuación de drift premia el ángulo de dirección, la configuración del diferencial y el equilibrio trasero."
+            },
+            {
+              "label": "Contrarreloj",
+              "detail": "Los récords de contrarreloj se ganan en el garaje con vueltas de prueba repetibles."
+            },
+            {
+              "label": "Resistencia",
+              "detail": "Las carreras de resistencia ponen a prueba la refrigeración, el desgaste de neumáticos y la gestión de combustible."
+            }
+          ]
+        },
+        {
+          "order": 5,
+          "name": "Guía para ganar dinero en Breakout Garage",
+          "description": "Los premios de carrera, los trabajos de reparto, los objetivos diarios y la reventa de coches usados son las principales formas de financiar reparaciones, piezas y tu próximo vehículo.",
+          "href": "/guide/breakout-garage-money-making-methods",
+          "displayType": "card-list",
+          "highlights": [
+            {
+              "label": "Carreras",
+              "detail": "Repite los eventos que puedas terminar sin errores para obtener ingresos constantes."
+            },
+            {
+              "label": "Reparto",
+              "detail": "Los trabajos de reparto pagan de forma fiable mientras aprendes el mapa del mundo abierto."
+            },
+            {
+              "label": "Reventa",
+              "detail": "Compra coches usados baratos, repáralos y revéndelos con beneficio."
+            },
+            {
+              "label": "Eventos",
+              "detail": "Los eventos diarios y de tiempo limitado ofrecen los mayores ingresos a corto plazo."
+            }
+          ]
+        },
+        {
+          "order": 6,
+          "name": "Coches usados en Breakout Garage",
+          "description": "El mercado de coches usados es donde viven los proyectos baratos. Aprende a inspeccionarlos, repararlos y revenderlos con beneficio.",
+          "href": "/vehicles/breakout-garage-vehicle-list",
+          "displayType": "card-list",
+          "highlights": [
+            {
+              "label": "Inspeccionar",
+              "detail": "Comprueba compresión, óxido y piezas desgastadas antes de pagar."
+            },
+            {
+              "label": "Reparar",
+              "detail": "Arregla primero frenos, neumáticos y refrigeración para que el coche pueda terminar una carrera."
+            },
+            {
+              "label": "Revender",
+              "detail": "Restaura y revende coches cuando tu propio garaje esté en orden."
+            },
+            {
+              "label": "Ganga",
+              "detail": "Los proyectos con pocos kilómetros y mecánicas poco comunes son las mejores compras a largo plazo."
+            }
+          ]
+        },
+        {
+          "order": 7,
+          "name": "Multijugador de Breakout Garage",
+          "description": "Breakout Garage admite multijugador peer-to-peer. Abre una sala, invita a tus amigos y corred juntos en la sala de carreras del juego.",
+          "href": "/mechanics/breakout-garage-multiplayer",
+          "displayType": "step-by-step",
+          "highlights": [
+            {
+              "label": "1",
+              "detail": "Abre una sala peer-to-peer e invita a amigos de tu lista de Steam."
+            },
+            {
+              "label": "2",
+              "detail": "Acordad una clase o límite de preparación antes de que nadie se coloque en la salida."
+            },
+            {
+              "label": "3",
+              "detail": "Únete a la sala de carreras del juego y elige el tipo de evento."
+            },
+            {
+              "label": "4",
+              "detail": "Mantén cada preparación dentro de las reglas para que los resultados sean consistentes."
+            }
+          ]
+        },
+        {
+          "order": 8,
+          "name": "Actualizaciones de Breakout Garage",
+          "description": "Sigue los parches oficiales, los nuevos vehículos, los tipos de motor y los planes de la hoja de ruta a medida que crece la versión de Acceso Anticipado.",
+          "href": "/release/breakout-garage-early-access",
+          "displayType": "card-list",
+          "highlights": [
+            {
+              "label": "Parches",
+              "detail": "Los parches de equilibrio y corrección de errores llegan con regularidad durante el Acceso Anticipado."
+            },
+            {
+              "label": "Coches nuevos",
+              "detail": "La plantilla inicial de 5 coches tiene previsto crecer con nuevos vehículos."
+            },
+            {
+              "label": "Motores",
+              "detail": "Más tipos de motor y piezas están en la hoja de ruta del Acceso Anticipado."
+            },
+            {
+              "label": "Hoja de ruta",
+              "detail": "El modo carrera, las actividades del mapa y la personalización son adiciones previstas."
+            }
+          ]
+        }
+      ]
+    },
+    "faq": {
+      "title": "Preguntas frecuentes de Breakout Garage",
+      "description": "Respuestas rápidas a las preguntas más comunes sobre Breakout Garage.",
+      "items": [
+        {
+          "question": "¿Qué es Breakout Garage?",
+          "answer": "Breakout Garage es un simulador de carreras y preparación de coches de mundo abierto de Breakout Studio, ambientado en un pueblo inspirado en Texas con coches muscle americanos clásicos. Se lanzó en Acceso Anticipado de Steam el 22 de septiembre de 2026 con 5 coches, 3 tipos de motor y eventos de aceleración, óvalo, drift, contrarreloj y resistencia."
+        },
+        {
+          "question": "¿Breakout Garage es gratis?",
+          "answer": "No. Breakout Garage es un juego de PC de pago que se vende en Steam y actualmente está en Acceso Anticipado. No hay códigos confirmados ni sistemas de moneda gratuita."
+        },
+        {
+          "question": "¿Qué debería mejorar primero en Breakout Garage?",
+          "answer": "Empieza por neumáticos, frenos y fluidos, luego suspensión y alineación, y después relaciones de cambio. Añade potencia al motor al final, porque la potencia inutilizable solo hace girar los neumáticos."
+        },
+        {
+          "question": "¿Cuántos coches hay en Breakout Garage?",
+          "answer": "La versión de lanzamiento en Acceso Anticipado incluye 5 coches y 3 tipos de motor. Los desarrolladores planean ampliar la lista de coches, piezas y contenido de carrera con el tiempo."
+        },
+        {
+          "question": "¿Breakout Garage tiene multijugador?",
+          "answer": "Sí. Breakout Garage admite multijugador peer-to-peer, así que puedes abrir una sala y correr con amigos en la sala de carreras del juego."
+        },
+        {
+          "question": "¿Cómo gano dinero en Breakout Garage?",
+          "answer": "Los eventos de carrera, los trabajos de reparto, los objetivos diarios y la reventa de coches usados son las principales fuentes de ingresos. Termina cada sesión vendiendo piezas sobrantes y reinvirtiendo en tu preparación."
+        }
+      ]
+    },
+    "finalCta": {
+      "title": "¿Listo para armar y correr en Breakout Garage?",
+      "description": "Desde tu primer coche usado barato hasta una máquina de aceleración totalmente ajustada, nuestra wiki comunitaria cubre cada preparación, ajuste y carrera con guías gratuitas y actualizadas.",
+      "primary": "Leer la guía para principiantes",
+      "secondary": "Jugar en Steam"
+    }
+  },
+  "guide": {
+    "overviewTitle": "Guías de Breakout Garage",
+    "overviewDescription": "Guías paso a paso de Breakout Garage que cubren la ruta para principiantes, los controles, los métodos para ganar dinero, el ajuste y consejos para ser más rápido en el garaje."
+  },
+  "mechanics": {
+    "overviewTitle": "Mecánicas de Breakout Garage",
+    "overviewDescription": "Análisis a fondo de las mecánicas de Breakout Garage: swaps de motor, ajuste, control de salida, carreras de aceleración, clasificaciones y carreras multijugador."
+  },
+  "vehicles": {
+    "overviewTitle": "Vehículos de Breakout Garage",
+    "overviewDescription": "Todos los coches y camionetas de Breakout Garage, incluida la lista completa de vehículos, el K5 Blazer, la carrocería cuadrada y la camioneta de aceleración, con notas de preparación."
+  },
+  "progression": {
+    "overviewTitle": "Progresión en Breakout Garage",
+    "overviewDescription": "Cómo progresar en Breakout Garage: modo carrera, carreras contra jefes, modo difícil y el bucle de dinero que financia tu próximo proyecto."
+  },
+  "platforms": {
+    "overviewTitle": "Plataformas de Breakout Garage",
+    "overviewDescription": "Dónde jugar a Breakout Garage en PC, Steam, PS5, Xbox y consola, además de detalles de plataforma, disponibilidad y preguntas sobre cross-play."
+  },
+  "release": {
+    "overviewTitle": "Lanzamiento de Breakout Garage",
+    "overviewDescription": "Detalles del lanzamiento de Breakout Garage: Acceso Anticipado, demo, beta, prueba de juego y las últimas noticias sobre la fecha de lanzamiento."
+  },
+  "community": {
+    "overviewTitle": "Comunidad de Breakout Garage",
+    "overviewDescription": "Únete a la comunidad de Breakout Garage: Discord oficial, Reddit, Patreon y la escena de mods alrededor del juego."
+  },
+  "shared": {
+    "wikiNavigation": "Navegación de la wiki",
+    "updated": "Actualizado",
+    "playOnRoblox": "Jugar en Steam",
+    "inThisSection": "En esta sección",
+    "tableOfContents": "Tabla de contenidos",
+    "nextSteps": "Siguientes pasos",
+    "needHelp": "¿Necesitas ayuda?",
+    "relatedReading": "Lecturas relacionadas",
+    "relatedGuides": "Guías relacionadas",
+    "readMore": "Leer más",
+    "officialMedia": "Medios oficiales",
+    "home": "Inicio",
+    "noGuidesAvailable": "Aún no hay guías disponibles. ¡Vuelve pronto!"
+  },
+  "footer": {
+    "aboutTitle": "Breakout Garage Wiki",
+    "about": "Breakout Garage Wiki es un centro de guías independiente hecho por fans que cubre la preparación de coches, el ajuste de motores, las carreras de aceleración, las piezas, el dinero, el multijugador y los conocimientos esenciales del juego tanto para jugadores nuevos como veteranos.",
+    "quickLinks": "Enlaces rápidos",
+    "guides": "Guías",
+    "legal": "Legal",
+    "copyright": "2026 Breakout Garage Wiki. No está afiliada a Breakout Studio ni a Steam.",
+    "description": "Simulador de mundo abierto de preparación de coches y carreras de aceleración en PC. 5 coches, 3 tipos de motor, ajuste profundo.",
+    "playGame": "Juega a Breakout Garage en Steam",
+    "officialDiscord": "Discord oficial",
+    "officialYoutube": "YouTube oficial",
+    "vvBuilder": "Comunidad de Steam",
+    "beginnerGuide": "Guía para principiantes",
+    "raceGuides": "Guías de carreras",
+    "bossGuides": "Guías de jefes",
+    "buildGuide": "Guía de preparación",
+    "privacyPolicy": "Política de privacidad",
+    "termsOfService": "Términos de servicio"
+  }
+}
