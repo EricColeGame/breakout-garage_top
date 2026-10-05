@@ -1,0 +1,134 @@
+export const metadata = {
+  title: "Guía del cargador de mods de Breakout Garage: instala, configura y soluciona problemas de mods de forma segura",
+  description: "Una guía práctica del cargador de mods de Breakout Garage que cubre la configuración, la estructura de carpetas, el orden de carga, la solución de problemas y consejos de seguridad para un juego modeado estable.",
+  category: "guide",
+  date: "2026-10-06",
+}
+
+Modear un juego suele empezar con el mismo momento frustrante: colocas una carpeta de mod junto a los archivos del juego, lo inicias y no ocurre nada. Sin error, sin menú, sin ninguna señal de que el juego siquiera haya notado tu trabajo. Ese fallo silencioso es exactamente la razón por la que un cargador adecuado importa, y es el motivo por el que existe esta **guía del cargador de mods de Breakout Garage**. Ya sea que estés añadiendo mejoras de calidad de vida, cambios estéticos o nuevas funciones para el garaje, el cargador es la pieza que hace posible todo lo demás.
+
+Piensa en esta **guía del cargador de mods de Breakout Garage** como un mapa y no como un truco único. Aprenderás qué hace realmente un cargador, cómo preparar tu instalación para que nada se rompa, cómo colocar los archivos correctamente, cómo probar los mods de uno en uno y qué hacer cuando el juego se niega a iniciarse. La mayoría de los problemas de modeo no son misteriosos: son problemas de rutas, desajustes de versión o dependencias faltantes, y los tres tienen solución.
+
+## Qué hace realmente un cargador de mods para Breakout Garage
+
+Los juegos se distribuyen como paquetes cerrados. El motor solo lee los recursos y scripts que los desarrolladores empaquetaron dentro, e ignora cualquier otra cosa que esté en la carpeta. Un cargador de mods se inserta en esa secuencia de arranque y le indica al juego que lea tus archivos externos de todos modos.
+
+En la práctica, un cargador cumple tres funciones:
+
+- **Engancha el proceso de inicio** para que el código externo se ejecute antes de que la lógica principal del juego tome el control.
+- **Carga los archivos de mods en un orden definido**, que es la razón por la que un mod puede sobrescribir a otro.
+- **Escribe un archivo de registro** que documenta exactamente qué se cargó, qué falló y por qué.
+
+Ese registro es el archivo más valioso del modeo. Cuando un mod no hace nada en silencio, el registro suele decir "archivo no encontrado" o "dependencia faltante" en cuestión de segundos.
+
+| Componente del cargador | Qué hace | Dónde suele ubicarse |
+|---|---|---|
+| Núcleo del cargador | Se inicia antes del código principal del juego y prepara el entorno de ejecución | Carpeta raíz del juego |
+| Carpeta de mods | Contiene cada mod, normalmente una carpeta o archivo por mod | Se crea en el primer inicio |
+| Archivos de configuración | Guardan los ajustes por mod que puedes editar en un editor de texto | Carpeta de configuración o de datos de usuario |
+| Archivo de registro | Registra el orden de carga, los errores y las dependencias faltantes | Directorio de registros del cargador o del juego |
+| Bibliotecas de dependencias | Código compartido del que dependen varios mods | Carpeta de mods o directorio del cargador |
+
+Los informes de la comunidad muestran consistentemente el mismo patrón: la mayoría de los mods "rotos" no están rotos en absoluto. Están en la carpeta equivocada, tienen el nombre incorrecto o esperan una biblioteca compartida que el jugador nunca instaló.
+
+## Trabajo de preparación antes de instalar
+
+Antes de seguir cualquier **guía del cargador de mods de Breakout Garage**, dedica diez minutos a la preparación. Este es el paso que la gente se salta, y es el paso que causa más daños: una instalación mal hecha puede corromper los datos de guardado o dejar un juego que no arranca.
+
+| Paso de preparación | Por qué importa | Riesgo si se omite |
+|---|---|---|
+| Haz una copia de seguridad de tus partidas guardadas | Los mods pueden cambiar la estructura de las partidas | Progreso perdido que no se puede recuperar |
+| Copia la carpeta del juego | Permite restaurar una instalación limpia al instante | Reinstalar todo el juego |
+| Confirma la versión del juego | Los cargadores están diseñados para compilaciones específicas | El cargador no logra engancharse al iniciar |
+| Identifica el motor | Unity, Unreal y los motores personalizados usan cargadores distintos | Instalar por completo el cargador equivocado |
+| Anota tu ruta de instalación | Los espacios y los caracteres especiales rompen algunos cargadores | Fallo silencioso al iniciar |
+| Revisa las reglas de la plataforma | Algunas plataformas restringen la modificación de archivos | Restricciones de cuenta o de multijugador |
+
+Algunas notas prácticas. Si tu juego se distribuye a través de un lanzador, verifica que el lanzador no esté configurado para reparar o verificar archivos automáticamente: ese proceso puede borrar tu cargador. Si la sincronización en la nube está activada para las partidas guardadas, considera pausarla mientras pruebas, para que una partida modeada defectuosa no sobrescriba una buena.
+
+Por último, decide de antemano si vas a modear para juego individual o multijugador. Si Breakout Garage tiene algún modo competitivo o compartido, asume que los mods del lado del cliente conllevan riesgo, y revisa las reglas antes de instalar cualquier cosa que cambie la jugabilidad en lugar de la apariencia.
+
+## Instalar el cargador de mods de Breakout Garage paso a paso
+
+La secuencia de instalación a continuación es la parte de esta **guía del cargador de mods de Breakout Garage** que la mayoría de la gente apresura, y también es la parte más fácil de hacer bien.
+
+1. **Cierra el juego por completo.** Revisa tu administrador de tareas: los procesos en segundo plano bloquearán los archivos y causarán instalaciones parciales.
+2. **Localiza la carpeta raíz del juego.** Esta es la carpeta que contiene el ejecutable principal, no el acceso directo de tu escritorio.
+3. **Descarga el cargador desde su fuente oficial.** Los espejos de terceros son una fuente común de malware incluido.
+4. **Lee primero las instrucciones propias del cargador.** Cada cargador tiene sus particularidades, y su documentación tiene más autoridad que cualquier guía general, incluida esta.
+5. **Extrae el cargador en la carpeta raíz.** No lo anides dentro de una subcarpeta a menos que la documentación lo indique.
+6. **Inicia el juego una vez y luego ciérralo.** Este primer inicio genera la carpeta de mods, los archivos de configuración y el registro.
+7. **Confirma que aparecieron las carpetas.** Si no aparecieron, el cargador nunca se enganchó: detente aquí y soluciona el problema antes de añadir mods.
+8. **Instala un mod.** Cópialo en la carpeta de mods usando la estructura que especifique su autor.
+9. **Inicia y verifica.** Revisa el registro en busca de una línea de carga exitosa antes de añadir cualquier otra cosa.
+
+| Paso | Acción | Indicador de éxito |
+|---|---|---|
+| 1–2 | Cierra el juego, encuentra la carpeta raíz | Puedes ver el ejecutable del juego |
+| 3–5 | Descarga y extrae el cargador | Los archivos del cargador están junto al ejecutable |
+| 6–7 | Primer inicio y cierre | Existen las carpetas de mods, configuración y registro |
+| 8 | Añade un solo mod | El archivo del mod aparece en la carpeta correcta |
+| 9 | Reinicia y lee el registro | El registro muestra que el mod se cargó sin errores |
+
+Añadir mods de uno en uno parece lento, pero convierte un juego de adivinanzas en un diagnóstico de cinco segundos. Cuando algo se rompe, sabes exactamente qué archivo lo causó.
+
+## Organizar, probar y actualizar mods
+
+Una **guía del cargador de mods de Breakout Garage** que se detiene en la instalación solo es medio útil. La estabilidad a largo plazo proviene de cómo organizas y mantienes tu configuración.
+
+**El orden de carga importa.** Si dos mods editan el mismo recurso o valor, el que se carga al final suele ganar. La mayoría de los cargadores leen alfabéticamente o por un número de prioridad en el nombre del archivo, así que nombrar los archivos deliberadamente te da el control.
+
+**Agrupa por propósito.** Los mods estéticos, las mejoras de calidad de vida y las revisiones completas de la jugabilidad se comportan de manera diferente y entran en conflicto a ritmos distintos.
+
+| Tipo de mod | Riesgo de conflicto | Enfoque de prueba |
+|---|---|---|
+| Estético (texturas, skins de interfaz) | Bajo | Instalar en lotes de tres o cuatro |
+| Calidad de vida (atajos, cámara) | De bajo a medio | Probar individualmente si tocan la entrada |
+| Revisiones de jugabilidad | Alto | Instalar solo, probar a fondo y luego añadir |
+| Bibliotecas de dependencias | Medio | Instalar primero, antes que los mods que las necesitan |
+| Conversiones totales | Muy alto | Mantener una copia limpia del juego por separado |
+
+**Después de cada actualización del juego, asume que los mods se romperán.** Las actualizaciones cambian el código interno, y los cargadores a menudo necesitan una actualización correspondiente antes de volver a engancharse. La rutina segura es: haz una copia de seguridad de tu carpeta de mods, actualiza el juego, actualiza el cargador y luego reintroduce los mods en grupos pequeños. Mantén un archivo de texto con una lista de cada mod y su versión: cuando algo deje de funcionar meses después, esa lista te ahorra una hora de adivinanzas.
+
+## Solución de problemas y seguridad
+
+Cuando algo se rompe, el camino más rápido de vuelta es la misma lista de verificación de esta **guía del cargador de mods de Breakout Garage** que usaste para instalar: cierra el juego, lee el registro, verifica las rutas y prueba un mod a la vez.
+
+| Síntoma | Causa probable | Solución |
+|---|---|---|
+| El juego se inicia pero no se carga ningún mod | El cargador no está en la carpeta raíz | Mueve los archivos del cargador junto al ejecutable |
+| La carpeta del cargador nunca se generó | Versión del juego incorrecta o inicio bloqueado | Verifica la versión, ejecuta como administrador |
+| El juego se bloquea al iniciar | Mod en conflicto o desactualizado | Elimina la mitad de tus mods y luego biseca |
+| Un mod no hace nada | Estructura de carpetas incorrecta o dependencia faltante | Vuelve a leer las notas de instalación del mod |
+| Los mods funcionaban y luego dejaron de hacerlo tras una actualización | Juego y cargador desincronizados | Actualiza el cargador, reinstala los mods gradualmente |
+| Bloqueos aleatorios a mitad de sesión | Mods que consumen mucha memoria u orden de carga | Reduce la cantidad de mods, reordena la prioridad |
+
+### Mantenerte seguro y jugar limpio
+
+- **Descarga solo de fuentes con una comunidad activa.** Las páginas de mods con comentarios e historiales de actualización son mucho más seguras que los archivos anónimos.
+- **Nunca ejecutes un "gestor de mods" que pida las credenciales de tu cuenta de juego.** Ningún cargador legítimo las necesita.
+- **Ten cuidado con el anti-cheat.** Si un juego usa anti-cheat a nivel de kernel, cualquier código inyectado puede provocar un baneo, incluso en un jugador.
+- **Respeta las reglas del multijugador.** Los mods estéticos suelen tolerarse; cualquier cosa que altere la lógica del juego, no.
+
+La experiencia de los jugadores sugiere que la mayoría de los baneos provienen de mods que modifican el comportamiento de la red o los valores de memoria, no de cambios visuales. Si no estás seguro de si un mod es seguro, pregunta en la comunidad antes de instalarlo: es casi seguro que alguien ya lo ha probado.
+
+Si necesitas un lugar confiable para investigar mods y leer notas de instalación de otros jugadores, [Nexus Mods](https://www.nexusmods.com/) es una de las comunidades de modeo más grandes y establecidas, con secciones de comentarios e historiales de versiones que facilitan juzgar un archivo antes de ejecutarlo.
+
+## Preguntas frecuentes sobre el cargador de mods de Breakout Garage
+
+**¿Basta una guía del cargador de mods de Breakout Garage para un principiante absoluto?**
+Sí. Si puedes copiar y pegar archivos en una carpeta y leer un registro de texto, puedes modear el juego. Las únicas habilidades necesarias son colocar los archivos con cuidado y tener paciencia al probar.
+
+**¿Usar un cargador de mods romperá mi archivo de partida guardada?**
+No por sí solo. Las partidas suelen romperse cuando un mod cambia los datos del juego y luego cargas esa partida sin el mod. Haz siempre una copia de seguridad de las partidas antes de tu primera sesión modeada.
+
+**¿Por qué mis mods dejan de funcionar tras una actualización del juego?**
+Las actualizaciones cambian el código interno del juego, y los cargadores deben actualizarse para coincidir. Actualiza el cargador primero y luego reintroduce los mods en lotes pequeños, vigilando el registro en busca de fallos.
+
+**¿Me pueden banear por usar mods?**
+Depende enteramente de las reglas del juego y de si hay anti-cheat presente. Los mods estéticos del lado del cliente generalmente conllevan menos riesgo que los que alteran la jugabilidad, pero el enfoque más seguro es revisar la política oficial antes de instalar cualquier cosa.
+
+**¿Cuántos mods puede manejar el cargador?**
+No hay un límite fijo, pero la estabilidad disminuye a medida que aumentan los conflictos y el uso de memoria. La mayoría de los jugadores descubre que un conjunto enfocado de mods bien mantenidos funciona mucho mejor que una carpeta repleta de docenas de mods abandonados.
+
+Trabaja con esta **guía del cargador de mods de Breakout Garage** una vez y tendrás una configuración que podrás reconstruir en minutos tras cualquier actualización, que es exactamente lo que separa un pasatiempo de un dolor de cabeza.

@@ -9,7 +9,14 @@
   "nav": {
     "home": "Home",
     "menu": "Menu",
-    "toggleTheme": "Toggle theme"
+    "toggleTheme": "Toggle theme",
+    "guide": "Guide",
+    "mechanics": "Mechanics",
+    "vehicles": "Vehicles",
+    "progression": "Progression",
+    "platforms": "Platforms",
+    "release": "Release",
+    "community": "Community"
   },
   "home": {
     "meta": {
@@ -413,12 +420,37 @@
       "secondary": "Play on Steam"
     }
   },
-  "bosses": {},
+  "guide": {
+    "overviewTitle": "Breakout Garage Guides",
+    "overviewDescription": "Step-by-step Breakout Garage guides covering the beginner route, controls, money-making methods, tuning, and tips to get faster in the garage."
+  },
+  "mechanics": {
+    "overviewTitle": "Breakout Garage Mechanics",
+    "overviewDescription": "Deep dives into Breakout Garage mechanics: engine swaps, tuning, launch control, drag racing, leaderboards, and multiplayer racing."
+  },
+  "vehicles": {
+    "overviewTitle": "Breakout Garage Vehicles",
+    "overviewDescription": "Every Breakout Garage car and truck, including the full vehicle list, the K5 Blazer, the square body, and the drag truck, with build notes."
+  },
+  "progression": {
+    "overviewTitle": "Breakout Garage Progression",
+    "overviewDescription": "How to progress through Breakout Garage: career mode, boss races, hard mode, and the money loop that funds your next build."
+  },
+  "platforms": {
+    "overviewTitle": "Breakout Garage Platforms",
+    "overviewDescription": "Where to play Breakout Garage on PC, Steam, PS5, Xbox, and console, plus platform details, availability, and cross-play questions."
+  },
+  "release": {
+    "overviewTitle": "Breakout Garage Release",
+    "overviewDescription": "Breakout Garage release details: Early Access, demo, beta, playtest, and the latest release date news."
+  },
+  "community": {
+    "overviewTitle": "Breakout Garage Community",
+    "overviewDescription": "Join the Breakout Garage community: official Discord, Reddit, Patreon, and the modding scene around the game."
+  },
   "shared": {
     "wikiNavigation": "Wiki Navigation",
-    "activeCodes": "Active Codes",
     "updated": "Updated",
-    "viewAllCodes": "View all codes",
     "playOnRoblox": "Play on Steam",
     "inThisSection": "In this section",
     "tableOfContents": "Table of Contents",

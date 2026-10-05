@@ -1,0 +1,131 @@
+export const metadata = {
+  title: "Breakout Garage Platform Guide: Build, Share, and Play Brick-Breaker Games",
+  description: "A practical guide to picking a breakout garage platform: editor tools, physics tuning, publishing, and community tips for building brick-breaker games.",
+  category: "platforms",
+  date: "2026-10-06",
+}
+
+A breakout garage platform is where brick-breaker ideas actually get built instead of just played. Instead of hunting for one perfect game, you get a workspace with a grid editor, physics controls, and a sharing layer that turns a five-minute sketch into something other people can load up and play. That matters because breakout-style games live or die on feel — paddle response, ball weight, brick spacing, and the rhythm of a level. A good breakout garage platform shortens the distance between an idea and a playable build. A bad one buries that idea under menus, exports, and mystery settings you can never quite dial in.
+
+This guide walks through what these platforms actually are, how the main types compare, and how to get a first level finished without losing a weekend to tweaking.
+
+## What Is a Breakout Garage Platform?
+
+A breakout garage platform is any toolset that lets you design, test, and publish breakout-style brick-breaker games in one place. The "garage" half of the name is the important part: it's a workshop, not a storefront. You get a grid for bricks, a paddle and ball you can tune, and a preview button that lets you feel a change the second you make it.
+
+The term is used loosely, so it helps to know the three flavors you'll run into in practice.
+
+| Platform flavor | What it looks like | Who it suits |
+|---|---|---|
+| Browser-based level editor | Runs in a tab, saves to an account, shares by link | First-time builders, classroom projects, quick jams |
+| Engine template or asset kit | You start from a project file and modify it | Builders who want custom art, audio, and rules |
+| In-game builder mode | A sandbox mode inside a larger game | Players who already know the game's tools |
+
+Community reports suggest most beginners start with the browser flavor and graduate to a template once they hit a ceiling. That progression is normal. It doesn't mean you chose the wrong breakout garage platform — it usually means you outgrew the training wheels.
+
+One warning: many tools borrow the "garage" label for branding alone. If there's no editor, no preview, and no way to share a build, it's a game with a garage theme, not a platform.
+
+## Core Features to Look For
+
+Not every feature matters equally. The table below ranks the ones that separate a usable breakout garage platform from a frustrating one.
+
+| Feature | Why it matters | What to check before committing |
+|---|---|---|
+| Grid editor | Bricks are the whole game; placing them should be fast | Can you drag, paint, and duplicate rows? |
+| Physics tuning | Feel is everything in brick-breakers | Are ball speed, paddle friction, and bounce exposed? |
+| Instant playtest | Slow iteration kills momentum | One click or one key from edit to play |
+| Sharing and export | A level nobody can play is a sketch | Direct link, file export, or embed option |
+| Version history | You will break something you liked | Undo depth and saved snapshots |
+| Community gallery | Feedback and inspiration in one place | Is browsing, rating, and remixing supported? |
+| Performance tools | Frame drops ruin timing-based play | Frame rate and object count readouts |
+| Accessibility options | Wider audience, better levels | Colorblind-safe palettes, remappable keys |
+
+Red flags worth taking seriously:
+
+- No way to preview a change without publishing it first.
+- Physics values locked behind a paywall or hidden entirely.
+- A gallery with no sorting, tagging, or search, so good levels vanish in a week.
+- Export formats nobody else can open.
+
+If two or more of those apply, keep looking. The best breakout garage platform is the one that lets you iterate quickly and share easily, not the one with the longest feature list.
+
+## Comparing the Main Platform Types
+
+Most builders end up choosing between four setups. Each has a real trade-off, and none of them is universally correct.
+
+| Platform type | Best for | Typical strengths | Watch out for |
+|---|---|---|---|
+| Browser editor | Learning the basics fast | Zero install, instant sharing, gentle learning curve | Limited art and audio control |
+| Engine template | Finished, polished releases | Full control over visuals, sound, and rules | Setup time before the first brick exists |
+| Sandbox builder mode | Casual creators inside an existing game | Familiar controls, built-in audience | Capped by the host game's limits |
+| Hybrid editor with export | Teams and long-term projects | Start simple, scale up, keep your work | Export gaps between versions |
+
+A practical rule: if your goal is to learn level design, start browser-based. If your goal is to ship something with a title screen and original music, plan for a template or hybrid from day one. Switching later is possible, but you'll rebuild your levels by hand, and that's the single most common complaint in community threads about migrating between tools.
+
+## How to Build Your First Level
+
+The fastest way to learn a breakout garage platform is to finish one small, slightly boring level. Here's a workflow that keeps you moving.
+
+| Step | Goal | Quick tip |
+|---|---|---|
+| 1. Sketch on paper | Decide the level's one idea | "Bricks that drop in waves" beats "cool layout" |
+| 2. Block the grid | Get a full pass of bricks down | Keep it under 60 bricks for a first attempt |
+| 3. Set the paddle | Make movement feel fair | Slightly faster than the ball's horizontal speed |
+| 4. Playtest three times | Find the dead spots | Watch where the ball gets stuck, not where you die |
+| 5. Add one twist | Give the level a memory | One moving row, one indestructible brick, one timer |
+| 6. Tune difficulty | Match your intended audience | Change one value per test, never three |
+| 7. Publish and label | Make it findable | Name, difficulty tag, and a one-line description |
+
+Difficulty tuning is where most first levels go wrong. Use a table like this one as a starting point, then adjust by feel.
+
+| Parameter | Gentle | Standard | Punishing |
+|---|---|---|---|
+| Ball speed | Slow, readable arcs | Moderate, occasional acceleration | Fast with sharp angle changes |
+| Paddle width | Wide | Medium | Narrow |
+| Brick rows | 3–4 | 5–6 | 7+ with mixed types |
+| Power-up frequency | Frequent | Occasional | Rare or none |
+| Level length | Short, one idea | Two phases | Multi-phase with a boss pattern |
+
+A few layout habits that consistently produce better levels:
+
+- **Leave a lane.** A clear vertical channel gives the ball somewhere to travel and makes returns possible.
+- **Vary brick health.** Two-hit and indestructible bricks create decisions, not just noise.
+- **Escalate in the last third.** The final rows should raise stakes, not repeat the opening.
+- **Test with a weak paddle.** If the level is only beatable with a perfect run, it's not finished.
+
+## Publishing, Performance, and Community
+
+Once a level plays well, the next job is making sure it runs well for everyone else. Small frame-rate drops are far more damaging in a breakout game than in most genres, because timing is the entire skill.
+
+| Symptom | Likely cause | Fix |
+|---|---|---|
+| Ball passes through bricks | Fast-moving object skipping collision steps | Cap ball speed or enable continuous collision |
+| Input feels laggy | Heavy visual effects or background processes | Reduce particle counts, test on a lower-end device |
+| Level loads slowly | Too many unique assets | Reuse sprites and sounds across bricks |
+| Scores look wrong | Timing or multiplier logic tied to frame rate | Use delta time for all scoring math |
+| Players quit early | Front-loaded difficulty | Move the hardest pattern to the final rows |
+
+When you publish, treat the listing like part of the design. A clear title, a difficulty tag, and a screenshot of the actual playfield will outperform a clever name every time. If you want to see how brick-breaker levels are presented and tagged elsewhere, it helps to [browse breakout-style games on itch.io](https://itch.io/games/tag-breakout) and study how the strongest listings describe themselves in one sentence.
+
+Community etiquette matters more than most builders expect. Player experience suggests that creators who respond to feedback and post patch notes get noticeably more plays on their next release. The reverse is also true: silent creators with broken first levels tend to disappear from galleries quickly.
+
+Two more habits worth building:
+
+- Keep a changelog per level, even if it's three lines.
+- Remix with permission and credit. Remixing is how most platform communities grow.
+
+## FAQ
+
+**What exactly is a breakout garage platform?**
+It's a toolset for building, testing, and sharing breakout-style brick-breaker games in one place — an editor, a physics sandbox, and a publishing layer combined. The best way to judge one is to time how long it takes you to go from a blank grid to a playable level.
+
+**Do I need coding experience to use one?**
+No, not for most browser-based editors or in-game builder modes. Coding becomes useful when you want custom rules, unusual win conditions, or original art pipelines. A template-based breakout garage platform sits in the middle: you can build levels without code and add logic later if you want to.
+
+**How do I know when a level is finished?**
+When three playtests in a row end without you wanting to change the paddle or the ball speed, and when a first-time player can finish it in a reasonable number of attempts. Difficulty is a target, not an accident — pick the audience before you tune.
+
+**Can I publish levels outside the platform I built them in?**
+Sometimes. Export options vary widely, and moving a level between tools usually means rebuilding the grid. Check export support before you invest weeks in a breakout garage platform, especially if you might want a standalone release later.
+
+Start small, finish one level, publish it, and let the feedback tell you what to build next. That loop — build, test, share — is the whole point of a breakout garage platform, and it's the fastest way to get genuinely good at brick-breaker design.

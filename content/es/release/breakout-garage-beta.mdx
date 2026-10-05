@@ -1,0 +1,143 @@
+export const metadata = {
+  title: "Beta de Breakout Garage: cómo unirse al playtest, qué incluye y qué esperar",
+  description: "Una guía práctica sobre la beta de Breakout Garage: cómo unirte, qué incluyen las primeras versiones, problemas comunes y consejos para dar comentarios que realmente se usen.",
+  category: "release",
+  date: "2026-10-06",
+}
+
+## Por qué la beta de Breakout Garage merece tu tiempo
+
+Una demo te muestra una porción terminada de un juego. Una beta te entrega la máquina sin terminar y te pide que ayudes a construirla. Si has estado esperando la **beta de Breakout Garage**, esa distinción es justamente el punto: todavía no estás comprando un producto, estás probando uno.
+
+La **beta de Breakout Garage** importa porque las primeras pruebas de juego son donde se ajustan los controles, se suavizan las curvas de dificultad y se detectan los errores de cierre antes de un lanzamiento amplio. Los comentarios recogidos durante una ventana de prueba suelen moldear la versión final mucho más de lo que puede hacer cualquier prueba interna, porque los jugadores reales hacen cosas extrañas e impredecibles que los desarrolladores nunca anticipan. Ese es exactamente el valor que tú aportas.
+
+Esta guía cubre qué suele contener una versión beta, cómo conseguir acceso, qué hacer cuando algo se rompe y cómo decidir si vale la pena perseguir tu progreso.
+
+## Qué es realmente una versión beta
+
+Cada estudio etiqueta sus pruebas de forma distinta, y la etiqueta dice mucho sobre aquello a lo que te estás apuntando. Antes de pasar una noche descargando una versión, averigua en qué categoría estás.
+
+| Formato de beta | Quién obtiene acceso | Duración típica | Objetivo principal |
+|---|---|---|---|
+| Beta cerrada | Probadores invitados, poseedores de claves o solicitantes | De semanas a meses | Comentarios profundos, corrección de estabilidad |
+| Beta abierta | Cualquiera que se registre | De días a semanas | Primeras impresiones más datos de carga |
+| Prueba de estrés | Ventanas limitadas, a veces sin registro | Horas | Llevar deliberadamente los servidores al fallo |
+| Playtest público | Todos, a menudo en una tienda digital | Continuo | Marketing más telemetría |
+
+En la mayoría de los casos, un juego de breakout ambientado en un garaje realiza primero una prueba cerrada más pequeña y luego amplía el acceso. La experiencia de los jugadores sugiere que la primera oleada suele ser la más accidentada y la más influyente: quienes informan con claridad en la primera semana tienden a ver sus quejas resueltas en el primer parche importante.
+
+Un rápido toque de realidad: una versión beta no está optimizada. Los fotogramas por segundo bajan, los menús tienen textos provisionales y las funciones anunciadas en los tráilers pueden faltar por completo. Nada de eso es un escándalo. Es el estado normal de un juego sin terminar.
+
+## Cómo unirse a la beta de Breakout Garage
+
+El acceso casi siempre está limitado por una de tres cosas: una invitación, un formulario de registro o una clave. Este es el orden que mejor funciona.
+
+| Paso | Acción | Por qué importa |
+|---|---|---|
+| 1 | Sigue los canales oficiales del juego | Los anuncios llegan allí antes que a cualquier otro sitio |
+| 2 | Crea o vincula la cuenta correcta | Las invitaciones y el acceso a las pruebas están vinculados a ella |
+| 3 | Regístrate para el playtest o añade el juego a tu lista de deseados | Algunos estudios desbloquean oleadas según el interés |
+| 4 | Comprueba la elegibilidad de región y plataforma | Los bloqueos regionales son habituales en las primeras pruebas |
+| 5 | Verifica que tu hardware cumple los mínimos indicados | Las versiones sin optimizar castigan a las GPU débiles |
+| 6 | Estate atento a la ventana de descarga | Algunas pruebas solo están abiertas unos días |
+
+### Señales de alarma que evitar
+
+- Cualquiera que te pida **pagar** por una clave beta. Las pruebas legítimas son gratuitas o se venden claramente como acceso anticipado.
+- Enlaces de descarga que no estén alojados en una tienda oficial o en el propio sitio del desarrollador.
+- Mensajes privados de Discord que ofrezcan "acceso privado" a cambio de las credenciales de tu cuenta. Eso es un intento de phishing, no una invitación.
+
+Si no encuentras una página de registro, la respuesta honesta suele ser que la prueba aún no ha abierto. Añadir el juego a tu lista de deseados es la forma más sencilla de recibir un aviso cuando lo haga.
+
+Muchos playtests de PC se distribuyen a través de [la tienda de Steam y los eventos estacionales de demos](https://store.steampowered.com/sale/nextfest), que es un lugar fiable para comprobar si hay una versión pública disponible.
+
+## Qué suele incluir la beta de Breakout Garage
+
+El contenido de una versión temprana es deliberadamente desigual. Algunos sistemas están casi terminados; otros solo existen como esbozos. Esto es lo que los informes de la comunidad suelen describir en una primera oleada.
+
+| Sistema | Estado típico en la beta | Qué significa para ti |
+|---|---|---|
+| Bucle de juego principal | Jugable, el equilibrio aún es tosco | Espera cambios de ajuste a mitad de prueba |
+| Contenido de niveles | Parcial: a menudo un subconjunto del conjunto final | Repetir fases es normal |
+| Progresión y desbloqueos | Acelerada o temporal | Puede reiniciarse antes del lanzamiento |
+| Cosméticos | Arte provisional o inexistente | No juzgues el acabado visual |
+| Funciones en línea | Modos limitados, poca población de jugadores | Los tiempos de cola se disparan fuera de horas punta |
+| Datos guardados | Frágiles, a veces borrados entre parches | Haz capturas de todo lo que te importe |
+| Rendimiento | Sin optimizar | Baja tus ajustes y espera tirones |
+
+La conclusión práctica: juega la beta por la *sensación* del juego, no por una experiencia completa. Si el bucle principal —abrirte paso, encadenar y calcular tiempos entre bahías de garaje llenas de obstáculos— es divertido mientras la versión está rota, es una muy buena señal de cara al lanzamiento.
+
+## Errores, cierres inesperados y cómo informarlos
+
+Algo se va a romper. La pregunta útil es si lo informas de una forma con la que un desarrollador pueda actuar.
+
+| Síntoma | Causa probable en una versión temprana | Solución rápida |
+|---|---|---|
+| Tirones y caídas de fotogramas | Shaders sin optimizar, compilación en el primer arranque | Actualiza los controladores de la GPU, baja los ajustes, repite el nivel |
+| Cierre inesperado al iniciar | Runtime ausente, conflictos de superposiciones | Verifica los archivos del juego, desactiva las superposiciones internas |
+| Emparejamiento atascado | Poca población de prueba fuera de horas punta | Prueba en horas punta de la tarde/noche |
+| Desincronización de audio | Problema conocido de las versiones tempranas | Reinicia el cliente |
+| El progreso no se guarda | Reinicios del servidor entre parches de prueba | Anota tus estadísticas manualmente |
+
+### Qué contiene un buen informe de error
+
+- El número de compilación que aparece en el menú principal o en la pantalla de título.
+- Tu plataforma y hardware, en una sola línea.
+- Los pasos exactos que provocaron el problema, numerados.
+- Con qué frecuencia ocurre: una vez o siempre.
+- Una captura de pantalla o un clip corto, si puedes grabarlo.
+
+Un informe con esos cinco elementos vale más que veinte mensajes que solo dicen "está roto". Los desarrolladores clasifican por reproducibilidad, así que quien puede hacer que un error ocurra a voluntad se lleva la corrección.
+
+## Consejos para aprovechar al máximo la beta de Breakout Garage
+
+Los probadores que más partido sacan a una beta la tratan como un trabajo con buenos aperitivos incluidos. Unos cuantos hábitos los separan del resto.
+
+- **Lee las notas del parche antes de jugar.** Un "error" que informas y que ya se corrigió en el último parche hace perder el tiempo a todos.
+- **Prueba lo aburrido.** Los menús, los ajustes, el guardado/carga y el comportamiento de la pausa se rompen más a menudo que el combate.
+- **Fuerza los casos límite.** Pausa durante una reacción en cadena. Sal a mitad de nivel. Acumula entradas. Ahí es donde viven los errores de verdad.
+- **Mantén un archivo de notas continuo.** Las observaciones con marca de tiempo superan a la memoria siempre.
+- **Mantén la educación en los hilos de comentarios.** Lo específico y tranquilo se lee; lo enfadado y vago se ignora.
+
+| Haz | No hagas |
+|---|---|
+| Informa del número de compilación | Dar por hecho que el desarrollador conoce tu configuración |
+| Prueba en tu hardware habitual | Comprar una clave a un revendedor |
+| Haz preguntas en los canales oficiales | Tratar el progreso de la beta como permanente |
+| Da comentarios sobre la sensación y el ritmo | Exigir una fecha de lanzamiento en un hilo de errores |
+
+Una cosa más que conviene decir sin rodeos: los comentarios más valiosos rara vez son "esto es malo". Son "esto se sintió mal, este es el momento en que ocurrió y esto es lo que esperaba en su lugar". Ese enfoque convierte una opinión en un ticket solucionable.
+
+## ¿Se conservará tu progreso de la beta de Breakout Garage?
+
+Esta es la pregunta más común en cualquier prueba, y la respuesta honesta es que varía, pero lo más seguro es asumir que no.
+
+| Tipo de progreso | ¿Suele conservarse? | Notas |
+|---|---|---|
+| Niveles superados y estadísticas | Rara vez | A menudo se reinician por motivos de equilibrio |
+| Desbloqueos y moneda | Rara vez | Las economías de prueba están infladas a propósito |
+| Recompensas cosméticas para probadores | A veces | Suelen entregarse en el lanzamiento por haber participado |
+| Logros vinculados a la cuenta | A veces | Depende de la integración con la plataforma |
+| Los comentarios que enviaste | Siempre valiosos | Dan forma al juego que se lanza |
+
+Si un estudio planea borrar el progreso, normalmente lo dice de antemano. Si no ha dicho nada, asume un reinicio y juega por la experiencia en lugar del grindeo. Un agradecimiento cosmético para los probadores es habitual, pero es una cortesía, no un contrato.
+
+## Qué pasa cuando cierra la beta
+
+Cuando termina una ventana de prueba, suelen seguir tres cosas: un resumen de comentarios, un parche que aborda los problemas más sonados y, o bien una prueba más amplia, o bien un anuncio de lanzamiento. Sigue los canales oficiales en lugar de los hilos de rumores: los tiempos de lanzamiento cambian constantemente en esta fase y las especulaciones de la comunidad se equivocan con frecuencia.
+
+Si participaste, espera una encuesta. Rellénala. Las encuestas escritas suelen ponderarse más que las publicaciones en foros porque están estructuradas y son fáciles de agregar. Esa es la última y más sencilla oportunidad de influir en la versión que acabarás comprando.
+
+## Preguntas frecuentes
+
+**¿Es gratis unirse a la beta de Breakout Garage?**
+Los playtests abiertos y las betas públicas casi siempre son gratuitos. Las pruebas cerradas suelen requerir una clave o una solicitud aceptada, y nunca deberías pagar a un tercero por una.
+
+**¿La beta de Breakout Garage incluye un NDA?**
+Algunas pruebas cerradas sí, sobre todo las primeras versiones técnicas. Lee los términos antes de hacer streaming o publicar clips: violar un NDA puede hacer que te revoquen el acceso de forma permanente.
+
+**¿Cuánto dura una beta típica?**
+Varía mucho. Las pruebas de estrés de fin de semana pueden terminar en 48 horas, mientras que las betas cerradas de juegos más grandes han durado meses. Consulta el anuncio para conocer la ventana concreta.
+
+**¿Se conservará mi progreso de la beta de Breakout Garage en el lanzamiento completo?**
+Normalmente no. Los cambios de equilibrio, los reinicios de economía y las migraciones de servidores dificultan la continuidad. Juega por la sensación del juego, haz capturas de todo lo que quieras recordar y toma cualquier recompensa de probador como un extra.
